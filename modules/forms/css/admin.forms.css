@@ -1,0 +1,501 @@
+.forms-list {
+	margin-top: 40px;
+}
+.forms-list .forms-list-item {
+	max-width: 400px;
+	border: 1px solid transparent;
+	padding: 5px;
+	margin: 6px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+}
+.forms-list .forms-list-item.active ,
+.forms-list .forms-list-item:active  {
+	outline: 5px solid rgba(0, 0, 0, 0.52);
+}
+.forms-list .forms-list-item img {
+	max-width: 400px;
+	height: auto;
+}
+/*.nbsNewFormDesc {
+	background-color: #fff;
+    bottom: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+	display: none;
+}*/
+.nbsSelectTpl {
+	position: absolute;
+	top: -50px;
+	/*left: 160px;*/
+}
+#nbsFormPreview {
+	/*float: left;
+	width: calc(100% - 560px);*/
+}
+#nbsFormEditTabs {
+	/*float: right;
+	width: 560px;*/
+}
+#nbsFormEditTabs .nbsOptTxtCheck {
+	width: calc(100% - 25px);
+}
+#nbsFormEditForm textarea {
+	width: 100%;
+}
+.wp-editor-area   {
+  height: 200px;
+  }
+.nbsTabContent section {
+	padding-bottom: 20px;
+}
+.nbsFormOptRow {
+	padding-left: 7px;
+}
+.supsystic-plugin fieldset, .nbsFormOptRow {
+	margin-bottom: 10px;
+}
+/*additional*/
+.nbsBgTypeShell {
+	display: none;
+}
+.nbsFormMainOptSect {
+	float: left;
+	padding-right: 30px;
+	max-width: 30%;
+}
+.nbsListItems li {
+	float: left;
+	margin-right: 5px;
+	/*min-height: 50px;*/
+	line-height: 35px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	padding: 3px;
+}
+.nbsListItems li:hover {
+	border-color: #4ae8ea;
+}
+.nbsListItems li.active {
+	border-color: #000;
+}
+#nbsFormPreviewUpdatingMsg {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	z-index: 999999;
+	display: none;
+	padding: 5px;
+	color: #4ae8ea;
+	background-color: #000;
+}
+.ppoFormSubFields label,
+.ppoFormRegFields label {
+	padding-right: 10px;
+}
+#nbsFormTpl .form-table {
+	vertical-align: top;
+}
+#nbsFormMainOpts .nbsFormMainOptLbl {
+	display: block;
+	margin-bottom: 5px;
+}
+/*Too long for this particular input - make it smaller*/
+/*.supsystic-plugin #nbsHideForDevicesLabel .chosen-container.chosen-container-multi {
+	min-width: 210px;
+}
+.supsystic-plugin #nbsHideForPostTypesLabel .chosen-container.chosen-container-multi {
+	min-width: 210px;
+}*/
+a.nbsSwitchShowHideOptLink {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+a.nbsSwitchShowHideOptLink.active,
+a.nbsSwitchShowHideOptLink:hover {
+	font-weight: bold;
+}
+/*animations setup*/
+.nbsFormAnimEff {
+	float: left;
+	min-height: 150px;
+	min-width: 150px;
+	position: relative;
+	border: 3px solid transparent;
+	cursor: pointer;
+}
+.nbsFormAnimEff:hover, 
+.nbsFormAnimEff.active {
+	border: 3px solid #4ae8ea;
+}
+.nbsFormAnimEffLabel {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	line-height: 130px;
+	text-align: center;
+	/*font-size: 20px;*/
+	background-color: #000;
+	color: #fff;
+	/*cursor: pointer;*/
+}
+/*#supsystic-breadcrumbs .button, 
+#supsystic-breadcrumbs *:not(.fa) {
+	height: 30px; 
+	line-height: 26px;
+}*/
+.supsystic-always-top {
+	position: fixed;
+	z-index: 99;
+}
+#supsystic-breadcrumbs.supsystic-sticky {
+	background-color: #f1f1f1;
+	width: 100%;
+}
+.forms-tick-label {
+	
+}
+[data-block-to-switch] {
+	width: 100%;
+}
+.nbsFormSelectTpl {
+	float: left;
+}
+.nbsSubShellOptsTbl,
+.nbsRegShellOptsTbl {
+	width: 100%;
+}
+.nbsSubShellOptsTbl th,
+.nbsRegShellOptsTbl th {
+	min-width: 280px;
+	font-weight: normal;
+}
+.nbsSubShellOptsTbl input[type=text],
+.nbsSubShellOptsTbl textarea,
+.nbsRegShellOptsTbl input[type=text],
+.nbsRegShellOptsTbl textarea {
+	width: 100%;
+}
+.nbsSubShellOptsTbl .fa.supsystic-tooltip,
+.nbsRegShellOptsTbl .fa.supsystic-tooltip {
+	float: right;
+}
+#nbsFormEditForm .form-table td {
+	/*vertical-align: top;*/
+}
+.nbsFormMainOptDesc {
+	display: none;
+}
+.nbsFormSubDestOpts {
+	display: none;
+}
+.nbsSubShellMainTbl th,
+.nbsRegLoginShellMainTbl th{
+	min-width: 350px;
+}
+.nbsSubShellMainTbl .fa.supsystic-tooltip,
+.nbsRegLoginShellMainTbl .fa.supsystic-tooltip {
+	float: right;
+}
+#nbsFormSm .nbsFormOptRow {
+	margin-bottom: 10px;
+}
+#nbsFormTexts .nbsFormOptRow,
+#nbsFormTexts fieldset {
+	padding-bottom: 10px;
+}
+.ui-state-highlight-sub-fields,
+.ui-state-highlight-reg-fields {
+	border: 1px solid #000;
+	width: 50px;
+	height: 30px;
+	background-color: #ddd;
+}
+.nbsSubFieldShell, .ui-state-highlight-sub-fields,
+.nbsRegFieldShell, .ui-state-highlight-reg-fields {
+	float: left;
+	margin-right: 10px;
+	cursor: move;
+	padding: 5px;
+}
+.nbsSubFieldShell,
+.nbsRegFieldShell {
+	position: relative;
+}
+.nbsSfFieldToolbar,
+.nbsRfFieldToolbar {
+	display: none;
+	position: absolute;
+	top: -25px;
+	right: 0;
+	padding: 5px;
+	background-color: #dfdfdf;
+}
+.nbsSfFieldToolbar a,
+.nbsRfFieldToolbar a{
+	color: #000;
+	text-decoration: none;
+}
+.nbsSfFieldToolbar a:not(:last-of-type),
+.nbsRfFieldToolbar a:not(:last-of-type) {
+	margin-right: 5px;
+}
+.nbsSubFieldShell:hover,
+.nbsRegFieldShell:hover {
+	background-color: #dfdfdf;
+}
+.nbsSubFieldShell:hover .nbsSfFieldToolbar,
+.nbsRegFieldShell:hover .nbsRfFieldToolbar {
+	display: block;
+}
+#nbsSfFieldSelectOptShellExl,
+#nbsRfFieldSelectOptShellExl {
+	display: none;
+}
+.nbsSfFieldSelectOptShell, 
+.nbsRfFieldSelectOptShell,
+.ui-state-highlight-sub-field-select-opt,
+.ui-state-highlight-reg-field-select-opt {
+	border: 1px solid #000;
+	padding: 5px;
+	margin-top: 5px;
+	cursor: move;
+}
+.nbsSfFieldSelectOptShell:hover,
+.nbsRfFieldSelectOptShell:hover {
+	background-color: #dfdfdf;
+}
+.ui-state-highlight-sub-field-select-opt,
+.ui-state-highlight-reg-field-select-opt {
+	height: 30px;
+}
+#nbsSubAddFieldShell,
+#nbsRegAddFieldShell {
+	display: block;
+    float: left;
+}
+.nbsPromoImgUrl {
+	text-decoration: none !important;
+	box-shadow: none !important;
+}
+#nbsFormDesign .form-table td {
+	vertical-align: top;
+}
+.wp-picker-container {
+	min-width: 120px;
+	white-space: nowrap;
+}
+.nbsOptDescParamsShell {
+	padding-left: 15px;
+	/*overflow: hidden;*/
+}
+#nbsFormEditableLabelShell {
+	cursor: pointer;
+	color: #000;
+}
+#nbsFormEditableLabelTxt {
+	display: none;
+}
+/*Bg opacity slider*/
+#toeSliderDisplay_paramstplbg_overlay_opacity {
+	font-weight: bold;
+	text-align: center;
+}
+.nbsTplLabel {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.button.nbsPromoTplBtn {
+	background-color: #fff;
+}
+.nbsTimeDisplayOptsShell,
+.nbsDateDisplayOptsShell {
+	display: none;
+}
+.nbsTimeDisplayOptsShell select {
+	margin: 0;
+}
+.nbsDateDisplayOptsShell input[type="text"] {
+	width: 90px;
+}
+#nbsFormAttachShell {
+	display: none;
+}
+.nbsFormAttachShell {
+	margin-top: 5px;
+}
+.nbsFormAttachFile {
+	padding: 7px 1px 0;
+	display: inline-block;
+}
+.nbsBgRowShell th .description {
+	font-size: 12px;
+}
+.nbsPageGlobalDelayShell {
+	display: none;
+}
+/*new plugin forms css start*/
+#nbsFieldShellEx {
+	display: none;
+}
+#nbsFieldsEditShell .nbsFieldRow {
+	margin: 0;
+	position: relative;
+}
+#nbsFieldsEditShell .nbsFieldRow.ui-sortable-helper {
+	background-color: #fff;
+}
+#nbsFieldsEditShell .nbsFieldRow .nbsMoveVFieldHandle {
+	position: absolute;
+	top: 50%;
+	left: -14px;
+	transform: translate(0, -50%);
+	color: #000;
+}
+#nbsFieldsEditShell .nbsFieldRow .nbsMoveVFieldHandle:hover {
+	text-shadow: 1px 1px 1px #333;
+}
+#nbsMoveVFieldHandleExl {
+	display: none;
+}
+#nbsFieldsEditShell .nbsFieldShell {
+	padding-left: 0px;
+	padding-right: 10px;
+}
+#nbsFieldsEditShell .nbsFieldShell .nbsFieldShellBody {
+	margin: 5px 0;
+	display: block;
+	position: relative;
+	
+}
+#nbsFieldsEditShell .nbsFieldShell .csfFieldIcon, 
+#nbsFieldsEditShell .nbsFieldShell .csfFieldLabel, 
+#nbsFieldsEditShell .nbsFieldShell .csfFieldType {
+	display: inline;
+}
+#nbsFieldsEditShell .nbsFieldShell .csfFieldType {
+	font-family: monospace;
+	font-size: 12px;
+}
+#nbsFieldsEditShell .nbsFieldShell .csfFieldType:before {
+	content: "[";
+}
+#nbsFieldsEditShell .nbsFieldShell .csfFieldType:after {
+	content: "]";
+}
+.nbsFieldPanel {
+	position: absolute;
+	display: none;
+	top: -40px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	color: #000;
+	padding: 5px 10px;
+	background-color: #4ae8ea;
+	z-index: 99;
+}
+.nbsFieldShell:hover .nbsFieldPanel {
+	display: block;
+}
+.nbsFieldPanel a {
+	color: #000;
+	text-decoration: none !important;
+	position: relative;
+	margin: 0 3px;
+}
+.nbsFieldPanel a:hover {
+	text-shadow: 1px 1px 1px #333;
+}
+#nbsFieldListOptShellExl {
+	display: none;
+}
+.lcsMoveHandle {
+	cursor: pointer;
+}
+.CodeMirror.nbsCodeMirrorOneLine {
+	height: 40px;
+}
+#nbsFieldsAddWnd .nbsFieldsAddWndElementsShell .nbsFieldWndElement {
+	margin: 5px 2px;
+}
+.nbsFormSubmitOptsTbl input[type="text"],
+.nbsFormSubmitToTbl input[type="text"],
+.nbsFormFieldsSettingsOptsTbl input[type="text"] {
+	width: 100%;
+}
+.nbsFormSubmitOptsTbl .supsystic-tooltip,
+.nbsFormSubmitToTbl .supsystic-tooltip,
+.nbsFormFieldsSettingsOptsTbl .supsystic-tooltip {
+	float: right;
+}
+#nbsFormSubmitToShellEx {
+	display: none;
+}
+.nbsFormSubmitToShell {
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #000;
+}
+.nbsFormSubmitToCcShell {
+	display: none;
+}
+.nbsFieldEditErrorRow {
+	display: none;
+}
+/*statistics styles*/
+.nbsNoStatsMsg {
+	display: none;
+	font-size: 16px;
+	font-weight: 600;
+    line-height: 1.3;
+}
+.nbsOptLabel {
+	clear: both;
+	display: block;
+	font-weight: bold;
+	min-height: 30px;
+}
+.nbsContactExportNbsBtnShell {
+	display: none;
+}
+.nbsSaveFormErrorEx {
+	display: none;
+}
+#nbsFieldsEditWnd, #nbsFieldsEditWnd * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+#nbsFieldsEditWnd .form-table .supsystic-tooltip {
+	float: right;
+}
+/*I know - it's from PRO, but don't want to create separate stylesheet for only one rule*/
+#jqgh_nbsAbFormTbl_id .s-ico {
+	float: right;
+}
+/*In next table we need to make first column - wider then usual*/
+.nbsFormFieldsSettingsOptsTbl.form-table th {
+	min-width: 250px;
+}
+.nbsSubmitOptsHelpTbl,
+.nbsSubmitOptsHelpTbl tbody,
+.nbsSubmitOptsHelpTbl tr,
+.nbsSubmitOptsHelpTbl td {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.nbsFormWhereShowBlock {
+	display: none;
+}
+.nbsFormSubmitOptsTbl th {
+	min-width: 220px;
+}

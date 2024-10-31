@@ -1,0 +1,2990 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Newsletter by Supsystic\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-14 13:22+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: supsystic.com <supsystic.team@gmail.com>\n"
+"Language-Team: supsystic.com <supsystic.team@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../classes/controller.php:207 ../classes/controller.php:215
+#: ../modules/forms/controller.php:7 ../modules/forms/controller.php:61
+#: ../modules/forms/controller.php:69 ../modules/forms/controller.php:169
+#: ../modules/forms/controller.php:279 ../modules/forms/controller.php:287
+#: ../modules/forms_statistics/controller.php:20
+#: ../modules/forms_statistics/controller.php:29
+#: ../modules/mail/controller.php:23 ../modules/newsletters/controller.php:7
+#: ../modules/newsletters/controller.php:87
+#: ../modules/newsletters/controller.php:95
+#: ../modules/newsletters/controller.php:117
+#: ../modules/newsletters/controller.php:137
+#: ../modules/newsletters/controller.php:145
+#: ../modules/newsletters/controller.php:154 ../modules/octo/controller.php:6
+#: ../modules/octo/controller.php:32 ../modules/octo/controller.php:42
+#: ../modules/octo/controller.php:212 ../modules/octo/controller.php:220
+#: ../modules/octo/controller.php:228 ../modules/octo/controller.php:236
+#: ../modules/options/controller.php:6
+#: ../modules/pages/views/tpl/deactivatePage.php:37
+#: ../modules/subscribers/controller.php:34
+#: ../modules/subscribers/controller.php:47
+#: ../modules/subscribers/controller.php:75
+#: ../modules/subscribers_lists/controller.php:22
+#: ../modules/subscribers_lists/controller.php:30
+#: ../modules/subscribers_lists/controller.php:39
+msgid "Done"
+msgstr "Fait"
+
+#: ../classes/field.php:131
+msgid "Select"
+msgstr "Sélectionner"
+
+#: ../classes/field.php:170 ../classes/field.php:179 ../classes/field.php:184
+msgid "N/A"
+msgstr "N/D"
+
+#: ../classes/field.php:277
+msgid "Add Checkbox"
+msgstr "Ajouter une case à cocher"
+
+#: ../classes/field.php:282 ../classes/field.php:287
+msgid "Add Item"
+msgstr "Ajouter élément"
+
+#: ../classes/field.php:293
+msgid "Add Radio Button"
+msgstr "Ajouter un bouton radio"
+
+#: ../classes/field.php:311
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: ../classes/field.php:314
+msgid "width"
+msgstr "largeur"
+
+#: ../classes/field.php:316
+msgid "height"
+msgstr "hauteur"
+
+#: ../classes/field.php:323
+msgid "Click to set field \"id\" and \"class\""
+msgstr "Cliquez pour définir champ \"id\" et \"class\""
+
+#: ../classes/field.php:324
+msgid "Attributes"
+msgstr "Attributs"
+
+#: ../classes/field.php:402
+msgid "There are no configuration options for this module"
+msgstr "Il n'y a pas d'options de configuration pour ce module"
+
+#: ../classes/fieldAdapter.php:93
+msgid "Apply To"
+msgstr "Appliquer à"
+
+#: ../classes/fieldAdapter.php:95
+msgid "Address"
+msgstr "Adresse"
+
+#: ../classes/fieldAdapter.php:96
+msgid "Destination"
+msgstr "Destination"
+
+#: ../classes/fieldAdapter.php:97
+msgid "Country"
+msgstr "Pays"
+
+#: ../classes/fieldAdapter.php:100
+msgid "Categories"
+msgstr "Catégories"
+
+#: ../classes/fieldAdapter.php:101
+msgid "You have no categories"
+msgstr "Vous n'avez pas de catégories"
+
+#: ../classes/fieldAdapter.php:102
+msgid "Brands"
+msgstr "Marques"
+
+#: ../classes/fieldAdapter.php:103
+msgid "You have no brands"
+msgstr "Vous n'avez pas de marque"
+
+#: ../classes/fieldAdapter.php:105
+msgid "Tax Rate"
+msgstr "Taxes"
+
+#: ../classes/fieldAdapter.php:106
+msgid "Absolute"
+msgstr "Absolue"
+
+#: ../classes/fieldAdapter.php:134
+msgid "Not selected"
+msgstr "Non sélectionné"
+
+#: ../classes/fieldAdapter.php:184
+msgid "class"
+msgstr "class"
+
+#: ../classes/fieldAdapter.php:186 ../classes/tables/usage_stat.php:7
+msgid "id"
+msgstr "id"
+
+#: ../classes/html.php:317
+msgid "Upload"
+msgstr "Envoyer"
+
+#: ../classes/html.php:740
+msgid "ON"
+msgstr "ON"
+
+#: ../classes/html.php:741
+msgid "OFF"
+msgstr "OFF"
+
+#: ../classes/html.php:765
+#, php-format
+msgid "Select %s"
+msgstr "Sélectionner %s"
+
+#: ../classes/modInstaller.php:34
+#, php-format
+msgid "Move files for %s failed"
+msgstr "Echec de transfert des fichiers vers %s"
+
+#: ../classes/modInstaller.php:37
+#, php-format
+msgid "%s is not plugin module"
+msgstr "%s n'est pas un module du plugin"
+
+#: ../classes/modInstaller.php:76
+msgid "Cannot create module directory. Try to set permission to "
+msgstr ""
+"Impossible de créer le répertoire du module. Essayez de définir "
+"l’autorisation pour"
+
+#: ../classes/modInstaller.php:104
+msgid "No modules were found in XML file"
+msgstr "Aucun module n'a été trouvé dans le fichier XML"
+
+#: ../classes/modInstaller.php:108
+msgid "Invalid XML file"
+msgstr "Fichier XML non valide"
+
+#: ../classes/modInstaller.php:110
+msgid "No XML file were found"
+msgstr "Aucun fichier XML n'a été trouvé"
+
+#: ../classes/modInstaller.php:123
+#, fuzzy
+#| msgid "No modules were found in XML file"
+msgid "No modules were found in installation file"
+msgstr "Aucun module n'a été trouvé dans le fichier XML"
+
+#: ../classes/modInstaller.php:127
+#, fuzzy
+#| msgid "No XML file were found"
+msgid "No installation file were found"
+msgstr "Aucun fichier XML n'a été trouvé"
+
+#: ../classes/modInstaller.php:149
+#, php-format
+msgid "Install %s failed"
+msgstr "L'installation de %s a échoué"
+
+#: ../classes/modInstaller.php:155
+msgid "Error Activate module"
+msgstr "Erreur lors de l'activation du module"
+
+#: ../classes/modInstaller.php:184
+msgid "Error Deactivation module"
+msgstr "Erreur lors de la désactivation du module"
+
+#: ../classes/modInstaller.php:201
+msgid "Error Activating module"
+msgstr "Erreur lors de l'activation du module"
+
+#: ../classes/model.php:177 ../classes/model.php:192 ../classes/model.php:209
+#: ../modules/forms/models/forms.php:326 ../modules/forms/models/forms.php:338
+#: ../modules/newsletters/models/newsletters.php:107
+#: ../modules/octo/models/octo.php:37 ../modules/octo/models/octo_blocks.php:32
+#: ../modules/octo/models/octo_blocks.php:44
+#: ../modules/subscribers/models/subscribers.php:37
+msgid "Database error detected"
+msgstr "Erreur de base de données détectée"
+
+#: ../classes/model.php:179 ../classes/model.php:194
+#: ../modules/forms/models/forms.php:328 ../modules/forms/models/forms.php:521
+#: ../modules/forms/models/forms.php:537 ../modules/forms/models/forms.php:551
+#: ../modules/newsletters/models/newsletters.php:376
+#: ../modules/newsletters/models/newsletters.php:392
+#: ../modules/newsletters/models/newsletters.php:406
+#: ../modules/newsletters/models/newsletters.php:503
+#: ../modules/octo/models/octo.php:51 ../modules/octo/models/octo_blocks.php:34
+msgid "Invalid ID"
+msgstr "ID non valide"
+
+#: ../classes/model.php:243 ../modules/subscribers/models/subscribers.php:441
+msgid "Empty or invalid ID"
+msgstr "ID vide ou non valide"
+
+#: ../classes/table.php:281
+msgid "Nothing to update"
+msgstr "Aucune mise à jour."
+
+#: ../classes/table.php:297
+msgid "Database error. Please contact your developer."
+msgstr "Erreur de base de données. Merci de contacter votre développeur."
+
+#: ../classes/tables/modules.php:7 ../classes/tables/modules_type.php:8
+#: ../modules/forms/views/tpl/formsEditFormFields.php:199
+msgid "Label"
+msgstr "Libellé"
+
+#: ../classes/tables/modules.php:8
+msgid "Type"
+msgstr "Type"
+
+#: ../classes/tables/modules.php:9
+msgid "Active"
+msgstr "Actif"
+
+#: ../classes/tables/modules.php:10
+msgid "Params"
+msgstr "Paramètres"
+
+#: ../classes/tables/modules.php:13
+msgid "Code"
+msgstr "Code"
+
+#: ../classes/tables/modules.php:14
+msgid "External plugin directory"
+msgstr "Répertoire externe du plugin"
+
+#: ../classes/tables/modules_type.php:7
+msgid "ID"
+msgstr "ID"
+
+#: ../classes/tables/usage_stat.php:8
+msgid "code"
+msgstr "Code"
+
+#: ../classes/tables/usage_stat.php:9
+msgid "visits"
+msgstr "visites"
+
+#: ../classes/tables/usage_stat.php:10
+msgid "spent_time"
+msgstr "temps_passé"
+
+#: ../classes/tables/usage_stat.php:11
+msgid "modify_timestamp"
+msgstr "modifier_horaire"
+
+#: ../classes/validator.php:30
+#, php-format
+msgid "Invalid length for %s, max length is %s"
+msgstr "Longueur non valide pour %s, la longueur maximale est de %s"
+
+#: ../classes/validator.php:43
+#, php-format
+msgid "Invalid numeric value for %s"
+msgstr "Valeur numérique incorrecte pour %s"
+
+#: ../classes/validator.php:71 ../modules/forms/models/forms.php:130
+#: ../modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please enter %s"
+msgstr "Merci d'entrer %s"
+
+#: ../classes/validator.php:78 ../modules/forms/models/forms.php:115
+#: ../modules/supsystic_promo/controller.php:39
+#, php-format
+msgid "Please select %s"
+msgstr "Merci de sélectionner %s"
+
+#: ../classes/validator.php:85 ../classes/validator.php:101
+#, php-format
+msgid "Invalid %s"
+msgstr "%s non valide"
+
+#: ../classes/validator.php:88
+#, php-format
+msgid "%s is already registered"
+msgstr "%s est déjà enregistré"
+
+#: ../modules/adminmenu/mod.php:13
+#, php-format
+msgid ""
+"Cool WordPress plugins from supsystic.com developers. I tried %s - and this "
+"was what I need! #supsystic.com"
+msgstr ""
+"De superbes plugins Wordpress de l'équipe de supsystic.com. J’ai essayé %s - "
+"et c’est ce dont j’avais besoin ! #supsystic.com"
+
+#: ../modules/adminmenu/mod.php:14 ../modules/options/mod.php:55
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../modules/adminmenu/mod.php:15
+msgid "More plugins for your WordPress site here!"
+msgstr "Plus de plugins pour votre site WordPress ici !"
+
+#: ../modules/adminmenu/mod.php:16 ../modules/adminmenu/mod.php:17
+#: ../modules/adminmenu/mod.php:18
+msgid "Spread the word!"
+msgstr "Faites passer le mot !"
+
+#: ../modules/api_loader/mod.php:21
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: ../modules/api_loader/mod.php:22
+msgid "MailPoet"
+msgstr "MailPoet"
+
+#: ../modules/api_loader/wrappers/mailchimp.php:7
+msgid ""
+"MailChimp requires CURL to be setup on your server. Please contact your "
+"hosting provider and ask them to setup CURL library for you. It's free."
+msgstr ""
+"MailChimp nécessite CURL pour être installé sur votre serveur. S’il vous "
+"plaît contactez votre hébergeur et demandez-lui d'installer la bibliothèque "
+"CURL pour vous. C’est gratuit."
+
+#: ../modules/api_loader/wrappers/mailchimp.php:36
+#: ../modules/api_loader/wrappers/mailchimp.php:137
+msgid "Empty API Key"
+msgstr "Clé API vide"
+
+#: ../modules/api_loader/wrappers/mailchimp.php:45
+msgid ""
+"There was some problem while trying to get your lists. Make sure that your "
+"API key is correct."
+msgstr ""
+"Il y a eu quelques problèmes en essayant de récuperer vos listes. Assurez-"
+"vous que votre clé API est correcte."
+
+#: ../modules/api_loader/wrappers/mailchimp.php:125
+#: ../modules/api_loader/wrappers/mailpoet.php:100
+msgid "Select Lists to Import at first"
+msgstr "Sélectionnez les listes à importer"
+
+#: ../modules/api_loader/wrappers/mailchimp.php:132
+#: ../modules/api_loader/wrappers/mailpoet.php:107
+msgid "Nothing to import"
+msgstr "Rien à importer"
+
+#: ../modules/api_loader/wrappers/mailchimp.php:135
+#: ../modules/api_loader/wrappers/mailpoet.php:110
+msgid "Select Lists at first"
+msgstr "Sélectionnez les listes à importer"
+
+#: ../modules/api_loader/wrappers/mailchimp.php:144
+msgid "MailChimp API key"
+msgstr "Clé API MailChimp"
+
+#: ../modules/api_loader/wrappers/mailchimp.php:145
+#, php-format
+msgid ""
+"To find your MailChimp API Key login to your mailchimp account at <a href="
+"\"%s\" target=\"_blank\">%s</a> then from the left main menu, click on your "
+"Username, then select \"Account\" in the flyout menu. From the account page "
+"select \"Extras\", \"API Keys\". Your API Key will be listed in the table "
+"labeled \"Your API Keys\". Copy / Paste your API key into \"MailChimp API key"
+"\" field here."
+msgstr ""
+"Pour trouver votre clé API, connectez vous sur votre compte MailChimp à <a "
+"href=\"%s\" target=\"_blank\">%s</a> puis à partir du menu principal de "
+"gauche, cliquez sur votre nom d'utilisateur, puis sélectionnez \"Account\" "
+"dans le menu déroulant. Sur votre page de compte sélectionnez \"Extras\", "
+"\"API Keys\". Votre clé API sera répertoriée dans le tableau intitulé \"Your "
+"API Keys\". Copier / Coller votre clé API dans le champ \"Clé API MailChimp"
+"\"."
+
+#: ../modules/api_loader/wrappers/mailchimp.php:151
+#: ../modules/api_loader/wrappers/mailpoet.php:14
+msgid "Lists"
+msgstr "Listes"
+
+#: ../modules/api_loader/wrappers/mailchimp.php:152
+msgid "Your MailChimp Subscription lists to import Subscribers from."
+msgstr "Sélectionnez votre liste Mailchimp à importer"
+
+#: ../modules/api_loader/wrappers/mailchimp.php:154
+#: ../modules/api_loader/wrappers/mailpoet.php:17
+#: ../modules/newsletters/views/tpl/nlAddNewAdmin.php:55
+msgid "Select Lists"
+msgstr "Sélectionnez des listes"
+
+#: ../modules/api_loader/wrappers/mailchimp.php:155
+msgid "Enter API key - and your list will appear here"
+msgstr "Entrez la clé API - et votre liste apparaîtra ici"
+
+#: ../modules/api_loader/wrappers/mailpoet.php:5
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%s\">MailPoet plugin</a> was not found on your "
+"site"
+msgstr ""
+"<a target=\"_blank\" href=\"%s\">Le plugin MailPoet </a> n’a pas été trouvée "
+"sur votre site"
+
+#: ../modules/api_loader/wrappers/mailpoet.php:15
+msgid "Your MailPoet Subscription lists to import Subscribers from."
+msgstr "Sélectionner votre liste MailPoet à importer"
+
+#: ../modules/api_loader/wrappers/mailpoet.php:18
+msgid "No lists found"
+msgstr "Aucune liste trouvée"
+
+#: ../modules/api_loader/wrappers/mailpoet.php:32
+msgid "Empty Lists"
+msgstr "Listes vides"
+
+#: ../modules/forms/controller.php:22
+#: ../modules/supsystic_promo/views/supsystic_promo.php:86
+#: ../modules/supsystic_promo/views/supsystic_promo.php:87
+#: ../modules/supsystic_promo/views/supsystic_promo.php:92
+#: ../modules/supsystic_promo/views/supsystic_promo.php:94
+#: ../modules/supsystic_promo/views/supsystic_promo.php:95
+msgid "Yes"
+msgstr "Oui"
+
+#: ../modules/forms/controller.php:22 ../modules/options/mod.php:149
+#: ../modules/supsystic_promo/views/supsystic_promo.php:86
+#: ../modules/supsystic_promo/views/supsystic_promo.php:87
+#: ../modules/supsystic_promo/views/supsystic_promo.php:92
+#: ../modules/supsystic_promo/views/supsystic_promo.php:94
+#: ../modules/supsystic_promo/views/supsystic_promo.php:95
+msgid "No"
+msgstr "Non"
+
+#: ../modules/forms/controller.php:270
+msgid "Done, redirecting to new Form..."
+msgstr "Fait, redirection vers le nouveau formulaire..."
+
+#: ../modules/forms/controller.php:328
+msgid "Thank you for subscribing!"
+msgstr "Merci pour votre abonnement."
+
+#: ../modules/forms/controller.php:355
+#, php-format
+msgid "Contacts from %s"
+msgstr "Contacts depuis %s"
+
+#: ../modules/forms/controller.php:365
+msgid "IP"
+msgstr "IP"
+
+#: ../modules/forms/controller.php:366 ../modules/forms/mod.php:91
+msgid "URL"
+msgstr "URL"
+
+#: ../modules/forms/controller.php:367
+msgid "Form ID"
+msgstr "ID Formulaire"
+
+#: ../modules/forms/controller.php:368
+msgid "Date Created"
+msgstr "Date de création"
+
+#: ../modules/forms/controller.php:396
+msgid "There are no Contacts for now"
+msgstr "Il n’y a pas de contacts pour l’instant"
+
+#: ../modules/forms/mod.php:15
+msgid "Add New Form"
+msgstr "Ajouter un nouveau formulaire"
+
+#: ../modules/forms/mod.php:18 ../modules/newsletters/controller.php:26
+#: ../modules/newsletters/mod.php:19 ../modules/subscribers/mod.php:27
+#: ../modules/subscribers_lists/mod.php:12
+msgid "Edit"
+msgstr "Editer"
+
+#: ../modules/forms/mod.php:21
+msgid "Subscribe Forms"
+msgstr "Formulaire d'abonnement"
+
+#: ../modules/forms/mod.php:63
+msgid "Form"
+msgstr "Formulaire"
+
+#: ../modules/forms/mod.php:70 ../modules/octo/mod.php:41
+#: ../modules/octo/views/tpl/octoEditorFooter.php:690
+msgid "Text"
+msgstr "Texte"
+
+#: ../modules/forms/mod.php:71
+#: ../modules/octo/views/tpl/octoEditorFooter.php:691
+#: ../modules/supsystic_promo/mod.php:186
+msgid "Email"
+msgstr "Email"
+
+#: ../modules/forms/mod.php:72
+msgid "Select Box"
+msgstr "Menu Déroulant"
+
+#: ../modules/forms/mod.php:73
+msgid "Select List"
+msgstr "Liste de sélection"
+
+#: ../modules/forms/mod.php:74
+msgid "Textarea"
+msgstr "Zone de texte"
+
+#: ../modules/forms/mod.php:75
+msgid "Radiobutton"
+msgstr "Bouton radio"
+
+#: ../modules/forms/mod.php:76
+msgid "Radiobuttons List"
+msgstr "Liste boutons radio"
+
+#: ../modules/forms/mod.php:77
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#: ../modules/forms/mod.php:78
+msgid "Checkbox List"
+msgstr "Liste de cases à cocher"
+
+#: ../modules/forms/mod.php:79
+msgid "Country List"
+msgstr "Liste des pays"
+
+#: ../modules/forms/mod.php:80
+msgid "Country List Multiple"
+msgstr "Liste multiple des pays"
+
+#: ../modules/forms/mod.php:82
+msgid "Number"
+msgstr "Numéro"
+
+#: ../modules/forms/mod.php:84 ../modules/forms_statistics/controller.php:42
+msgid "Date"
+msgstr "Date"
+
+#: ../modules/forms/mod.php:85
+msgid "Month"
+msgstr "Mois"
+
+#: ../modules/forms/mod.php:86
+msgid "Week"
+msgstr "Semaine"
+
+#: ../modules/forms/mod.php:87
+msgid "Time"
+msgstr "Heure"
+
+#: ../modules/forms/mod.php:89 ../modules/forms/views/forms.php:98
+msgid "Color"
+msgstr "Couleur"
+
+#: ../modules/forms/mod.php:90
+msgid "Range"
+msgstr "Plage"
+
+#: ../modules/forms/mod.php:94
+msgid "reCaptcha"
+msgstr "reCAPTCHA"
+
+#: ../modules/forms/mod.php:96
+msgid "Hidden Field"
+msgstr "Champ masqué"
+
+#: ../modules/forms/mod.php:97
+msgid "Submit Button"
+msgstr "Bouton Valider"
+
+#: ../modules/forms/mod.php:98
+msgid "Reset Button"
+msgstr "Bouton Reset"
+
+#: ../modules/forms/mod.php:100
+msgid "HTML / Text Delimiter"
+msgstr "Séparateur de texte"
+
+#: ../modules/forms/mod.php:102
+msgid "Google Map"
+msgstr "Google Maps"
+
+#: ../modules/forms/mod.php:104
+#, fuzzy
+#| msgid "Subscription Lists"
+msgid "Subscription List"
+msgstr "Listes d'abonnés"
+
+#: ../modules/forms/models/forms.php:24
+msgid "Can't find form"
+msgstr "Impossible de trouver le formulaire"
+
+#: ../modules/forms/models/forms.php:26
+msgid "Empty Form ID"
+msgstr "ID Formulaire vide"
+
+#: ../modules/forms/models/forms.php:58
+msgid "reCaptcha: The secret parameter is missing."
+msgstr "reCaptcha : Le paramètre secret est manquant."
+
+#: ../modules/forms/models/forms.php:59
+msgid "reCaptcha: The secret parameter is invalid or malformed."
+msgstr "Le paramètre secret reCaptcha est invalide ou mal formé."
+
+#: ../modules/forms/models/forms.php:60
+msgid "Please prove that you are not a robot - check reCaptcha."
+msgstr ""
+"Merci de confirmer que vous n’êtes pas un robot, vérifiez le reCaptcha."
+
+#: ../modules/forms/models/forms.php:61
+msgid "reCaptcha: The response parameter is invalid or malformed."
+msgstr "reCaptcha : Le paramètre de réponse est invalide ou malformé."
+
+#: ../modules/forms/models/forms.php:72
+msgid ""
+"There was a problem with sending request to Google reCaptcha validation "
+"server. Please make sure that your server have possibility to send server-"
+"server requests. Ask your hosting provider about this."
+msgstr ""
+"Il y avait un problème avec l'envoi de la demande pour la validation sur le "
+"serveur de  Google reCaptcha. Merci de vérifier que votre serveur a la "
+"possibilité d'envoyer des requêtes à ce  serveur. Questionnez votre "
+"hébergeur à ce sujet."
+
+#: ../modules/forms/models/forms.php:119
+#, php-format
+msgid "Your email has already been added %s"
+msgstr ""
+
+#: ../modules/forms/models/forms.php:121
+#, fuzzy, php-format
+#| msgid "Please enter valid email address"
+msgid "Please enter valid email %s"
+msgstr "Merci d'entrer une adresse email valide"
+
+#: ../modules/forms/models/forms.php:126
+#, php-format
+msgid "Please check %s"
+msgstr "Veuillez vérifier %s"
+
+#: ../modules/forms/models/forms.php:309
+msgid "Please select Form template from list below"
+msgstr "Sélectionnez un modèle de formulaire dans la liste ci-dessous"
+
+#: ../modules/forms/models/forms.php:311 ../modules/forms/models/forms.php:523
+#: ../modules/newsletters/models/newsletters.php:68
+#: ../modules/newsletters/models/newsletters.php:378
+#: ../modules/subscribers_lists/models/subscribers_lists.php:38
+#: ../modules/subscribers_lists/models/subscribers_lists.php:54
+msgid "Please enter Name"
+msgstr "Entrez votre nom."
+
+#: ../modules/forms/models/forms.php:416
+#: ../modules/newsletters/models/newsletters.php:290
+msgid "Provided data was corrupted"
+msgstr "Les données fournies sont corrompues"
+
+#: ../modules/forms/models/forms.php:549
+#: ../modules/newsletters/models/newsletters.php:404
+msgid "Name can not be empty"
+msgstr "Le nom ne peut pas être vide"
+
+#: ../modules/forms/models/forms.php:564 ../modules/forms/models/forms.php:570
+#: ../modules/forms/models/forms.php:576
+msgid "Form background"
+msgstr "Arrière plan Formulaire"
+
+#: ../modules/forms/models/forms.php:565 ../modules/forms/models/forms.php:571
+msgid "Inputs background"
+msgstr "Arrière-plan Champs"
+
+#: ../modules/forms/models/forms.php:566 ../modules/forms/models/forms.php:572
+msgid "Submit buttons background"
+msgstr "Arrière plan bouton de validation"
+
+#: ../modules/forms/models/forms.php:567 ../modules/forms/models/forms.php:573
+msgid "Reset buttons background"
+msgstr "Arrière plan bouton Reset"
+
+#: ../modules/forms/models/forms.php:577
+msgid "Inputs and Buttons background"
+msgstr "Arrière plans boutons et champs"
+
+#: ../modules/forms/views/forms.php:42
+msgid "Modify Form Template"
+msgstr "Modifier le modèle de formulaire"
+
+#: ../modules/forms/views/forms.php:51
+msgid "Cannot find required Form"
+msgstr "Impossible de trouver le formulaire requis"
+
+#: ../modules/forms/views/forms.php:96
+msgid "None"
+msgstr "Aucun"
+
+#: ../modules/forms/views/forms.php:97
+#: ../modules/forms/views/tpl/formsEditFormFields.php:266
+#: ../modules/octo/mod.php:42
+msgid "Image"
+msgstr "Image"
+
+#: ../modules/forms/views/forms.php:118
+msgid "Design"
+msgstr "Conception"
+
+#: ../modules/forms/views/forms.php:123
+msgid "Fields"
+msgstr "Champs"
+
+#: ../modules/forms/views/forms.php:128
+msgid "Submit Options"
+msgstr "Options de validation"
+
+#: ../modules/forms/views/forms.php:133 ../modules/statistics/mod.php:11
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: ../modules/forms/views/forms.php:139
+msgid "CSS / HTML Code"
+msgstr "Code CSS / HTML"
+
+#: ../modules/forms/views/forms.php:581
+#: ../modules/forms/views/tpl/formsEditFormFields.php:377
+#, php-format
+msgid ""
+"To use this field type you need to have installed and activated <a href=\"%s"
+"\" target=\"_blank\">Google Maps Easy</a> plugin - it's Free! Just install "
+"it <a class=\"button\" target=\"_blank\" href=\"%s\">here.</a>"
+msgstr ""
+"Pour utiliser ce type de champs, vous devez avoir installé et activé le "
+"plugin <a href=\"%s\" target=\"_blank\">Google Maps Easy</a> . C'est "
+"gratuit ! Installez-le simplement  <a class=\"button\" target=\"_blank\" "
+"href=\"%s\">ici.</a>"
+
+#: ../modules/forms/views/tpl/formsAddNewAdmin.php:20
+#, php-format
+msgid ""
+"Change Template to any other from the list below or <a class=\"button\" href="
+"\"%s\">return to Form edit</a>"
+msgstr ""
+"Changez de modèle à un autre dans la liste ci-dessous ou <a class=\"button\" "
+"href=\"%s\">retour à l'édition du formulaire</a>"
+
+#: ../modules/forms/views/tpl/formsAdmin.php:27
+#, php-format
+msgid ""
+"You have no Forms for now. <a href=\"%s\" style=\"font-style: italic;"
+"\">Create</a> your Form!"
+msgstr ""
+"Vous n’avez aucun formulaire pour l’instant. <a href=\"%s\" style=\"font-"
+"style: italic;\">Créez</a> votre formulaire !"
+
+#: ../modules/forms/views/tpl/formsEditAdminTplOpts.php:28
+msgid "Background"
+msgstr "Arrière Plan"
+
+#: ../modules/forms/views/tpl/formsEditAdminTplOpts.php:28
+#, php-format
+msgid "Background %d"
+msgstr "Arrière-plan %d"
+
+#: ../modules/forms/views/tpl/formsEditFormControls.php:10
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../modules/forms/views/tpl/formsEditFormControls.php:11
+msgid "PHP code"
+msgstr "Code PHP"
+
+#: ../modules/forms/views/tpl/formsEditFormControls.php:12
+msgid "Widget"
+msgstr "Widget"
+
+#: ../modules/forms/views/tpl/formsEditFormControls.php:65
+#: ../modules/newsletters/views/tpl/nlEditControls.php:43
+msgid "Copy"
+msgstr "Copier"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:5
+msgid ""
+"By default our plugin will show standard browser error messages about "
+"invalid or empty fields values. But if you need - you can replace it here. "
+"Use [label] - to set field name in your error message. For example \"Please "
+"fill out [label] field\". You can just leave this field empty - to use "
+"standard browser messages."
+msgstr ""
+"Par défaut notre plugin affichera les messages standard d'erreurs du "
+"navigateur sur les valeurs des champs non valides ou vides. Mais si vous "
+"avez besoin, vous pouvez le remplacer ici. Utilisez [label] - pour définir "
+"le nom de champ dans votre message d'erreur. Par exemple, \"Merci de  "
+"remplir [label] champ\". Vous pouvez laisser ce champ vide pour utiliser les "
+"messages standard du navigateur."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:116
+msgid ""
+"Name attribute for your field. You can use here latin letters, numbers or "
+"symdols \"-\", \"_\"."
+msgstr ""
+"Entrez un nom unique pour le champ. Vous pouvez utiliser ici des lettres "
+"latines, des chiffres ou des symboles \"-\", \"_\"."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:130
+msgid ""
+"Field label - that your users will see on your Form right near your field."
+msgstr ""
+"Libellé du champ - que vos utilisateurs verront sur votre formulaire juste à "
+"côté de votre champ."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:139
+msgid "Field placeholder - will be printed in your field as a tip."
+msgstr "Filigrane du champ - sera imprimé dans votre champ comme une astuce."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:153
+msgid ""
+"You can set default value for your field, and one it appear on your site - "
+"field will be pre-filled with this value."
+msgstr ""
+"Vous pouvez définir la valeur par défaut pour votre champ, et celle-ci  "
+"apparaîtra sur votre site - le champ sera pré-rempli avec cette valeur."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:159
+msgid "or select preset"
+msgstr "ou sélectionner un préréglage "
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:160
+msgid "User IP"
+msgstr "IP de l'utilisateur"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:161
+msgid "User Country code"
+msgstr "Code de pays de l’utilisateur"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:162
+msgid "User Country name"
+msgstr "Nom du pays de l'utilisateur"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:165
+msgid ""
+"Allow to insert some pre-defined values, like current user IP addres, or his "
+"country - to send you this data."
+msgstr ""
+"Autoriser  l'insertion de valeurs prédéfinies, comme l'adresse IP de "
+"l’utilisateur ou son pays - pour vous envoyer ces données."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:175
+msgid "In row"
+msgstr "En ligne"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:176
+msgid "In column"
+msgstr "En colonne"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:195
+#: ../modules/supsystic_promo/mod.php:185
+msgid "Name"
+msgstr "Nom"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:228
+#, php-format
+msgid ""
+"Your site key, generated on <a href=\"%s\" target=\"_blank\">%s</a>. To get "
+"more info - check <a href=\"%s\" target=\"_blank\">our tutorial.</a>"
+msgstr ""
+"Votre clé de site, généré sur <a href=\"%s\" target=\"_blank\">%s</a>. Pour "
+"plus d’infos - vérifier <a href=\"%s\" target=\"_blank\">notre tutoriel.</a>"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:237
+#, php-format
+msgid ""
+"Your secret key, generated on <a href=\"%s\" target=\"_blank\">%s</a>. To "
+"get more info - check <a href=\"%s\" target=\"_blank\">our tutorial.</a>"
+msgstr ""
+"Votre clé secrète, généré sur <a href=\"%s\" target=\"_blank\">%s</a>. Pour "
+"plus d’infos - vérifier <a href=\"%s\" target=\"_blank\">notre tutoriel.</a>"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:250
+#, php-format
+msgid ""
+"The color theme. You can select from themes, provided by Google, for your "
+"reCaptcha. To get more info - check <a href=\"%s\" target=\"_blank\">our "
+"tutorial.</a>"
+msgstr ""
+"Le thème de couleur. Vous pouvez choisir parmi les thèmes, fournis par "
+"Google, pour votre reCaptcha. Pour plus d’infos - vérifier <a href=\"%s\" "
+"target=\"_blank\">notre tutoriel.</a>"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:254
+msgid "Light"
+msgstr "Clair"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:254
+msgid "Dark"
+msgstr "Sombre"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:262
+msgid "The type of CAPTCHA to serve."
+msgstr "Type de CAPTCHA à utiliser"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:266
+msgid "Audio"
+msgstr "Audio"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:274
+msgid "The size of the CAPTCHA widget."
+msgstr "Taille du widget CAPTCHA."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:278
+msgid "Compact"
+msgstr "Compact"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:278
+msgid "Normal"
+msgstr "Normal"
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:286
+msgid "You can specify here additinal CSS classes for your field."
+msgstr ""
+"Vous pouvez spécifier ici les classes CSS supplémentaires pour votre champ."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:295
+msgid ""
+"You can specify here additinal CSS styles, that will be included in \"style"
+"\" tag, for your field."
+msgstr ""
+"Vous pouvez spécifier ici les styles CSS supplémentaires, qui seront inclus "
+"dans la balise \"style\", pour votre champ."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:304
+msgid ""
+"You can specify here additinal HTML attributes, such as \"id\", or other, "
+"for your field."
+msgstr ""
+"Vous pouvez spécifier ici des attributs HTML supplémentaires, telles que "
+"« id », ou autre, pour votre champ."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:317
+msgid "Possibility to bound field minimum length."
+msgstr "Possibilité de limiter la longueur minimum."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:326
+msgid ""
+"Possibility to bound field maximum length. For Files fields types - this is "
+"restriction for file size, in Mb."
+msgstr ""
+"Possibilité de limite de longueur maximale du champ. Pour les champs de "
+"types fichiers, il s'agit de la taille maximale du fichier en Mo."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:335
+msgid "Allow users to enter in this field - only numeric values."
+msgstr ""
+"Permettre aux utilisateurs d’entrer dans ce champ - uniquement des valeurs "
+"numériques."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:344
+msgid "Only letters will be allowed."
+msgstr "Lettres autorisées uniquement."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:353
+msgid ""
+"You can modify or set here your custom patters. Edit this ONLY if you know "
+"how to modify regular expression patterns! For Files fields types you can "
+"set here file extensions, separated by comma - \",\"."
+msgstr ""
+"Vous pouvez modifier ou définir ici vos modèles personnalisés. Modifier les "
+"modèles SEULEMENT si vous savez le faire! Pour les champs de type fichiers, "
+"vous pouvez placer ici des extensions de fichier, séparés par des virgules - "
+"\",\"."
+
+#: ../modules/forms/views/tpl/formsEditFormFields.php:374
+#, php-format
+msgid ""
+"You have no Google Maps for now. <a href=\"%s\" target=\"_blank\" class="
+"\"button\">Create Maps</a> at first, then you will be able to select it here "
+"and past into your form"
+msgstr ""
+"Vous n’avez aucune Google Maps pour l’instant. <a href=\"%s\" target=\"_blank"
+"\" class=\"button\">Créer une carte</a> dans un premier temps, vous pourrez "
+"ensuite la sélectionner ici et la passer dans votre formulaire."
+
+#: ../modules/forms/views/tpl/formsEditFormSubmitOpts.php:5
+msgid ""
+"Select lists, where you subscriber will be added after submit Subscription "
+"form data.."
+msgstr ""
+"Liste de sélection, où votre abonné sera ajouté après avoir validé le "
+"formulaire d'abonnement."
+
+#: ../modules/forms/views/tpl/formsEditFormSubmitOpts.php:15
+#, php-format
+msgid ""
+"You don't have any Subscribers list for now. <a href=\"%s\" target=\"_blank"
+"\" class=\"button\">Create firs List</a> before selecting it here."
+msgstr ""
+"Vous n'avez aucune liste d'abonné pour le moment. <a href=\"%s\" target="
+"\"_blank\" class=\"button\">Créez une première liste</a> avant de la "
+"sélectionner ici."
+
+#: ../modules/forms/views/tpl/formsEditFormSubmitOpts.php:22
+msgid "Message, that your users will see after success form submition."
+msgstr ""
+"Message que vos utilisateurs verront après la réussite de l'envoi du "
+"formulaire."
+
+#: ../modules/forms/views/tpl/formsEditFormSubmitOpts.php:31
+msgid "Text color for your Success message."
+msgstr ""
+
+#: ../modules/forms/views/tpl/formsEditFormSubmitOpts.php:42
+msgid ""
+"By default Subscriber will be created with Disabled stats, enable this "
+"option - we link with Subscribe Confirm will be send to provided subscriber "
+"email, and user will click on this link - status will be changed to "
+"Confirmed."
+msgstr ""
+
+#: ../modules/forms/views/tpl/formsEditFormSubmitOpts.php:53
+msgid ""
+"By default form will be hidden after successful submit, but you can disable "
+"this here - and after submit form will be just cleared."
+msgstr ""
+
+#: ../modules/forms/views/tpl/formsEditFormSubmitOpts.php:64
+msgid ""
+"If you want - you can redirect user after Form was submitted. Just enter "
+"required Redirect URL here - and each time after Form will be submitted - "
+"user will be redirected to that URL. Just leave this field empty - if you "
+"don't need this functionality in your Form."
+msgstr ""
+"Si vous le souhaitez, vous pouvez rediriger l’utilisateur après l'envoi du "
+"formulaire. Saisissez simplement l’URL de redirection requis ici  et chaque "
+"fois que le formulaire sera envoyé - l’utilisateur sera redirigé vers cette "
+"URL. Il suffit de laisser ce champ vide - si vous n’avez pas besoin de cette "
+"fonctionnalité dans votre formulaire."
+
+#: ../modules/forms/views/tpl/formsEditFormSubmitOpts.php:81
+msgid ""
+"Email delivery depends from your server configuration. For some cases - you "
+"and your subscribers can not receive emails just because email on your "
+"server is not working correctly. You can easy test it here - by sending test "
+"email. If you receive it - then it means that email functionality on your "
+"server works well. If not - this means that it is not working correctly and "
+"you should contact your hosting provider with this issue and ask them to "
+"setup email functionality for you on your server."
+msgstr ""
+"L'email de livraison dépend de la configuration de votre serveur. Pour "
+"certains cas, vous et vos abonnés, ne peuvent pas recevoir des e-mails tout "
+"simplement parce que les emails sur votre serveur ne fonctionne pas "
+"correctement. Vous pouvez facilement le tester ici, en envoyant l’email de "
+"test. Si vous le recevez, cela signifie que la fonctionnalité sur votre "
+"serveur fonctionne bien. Si ce n’est pas le cas, cela signifie qu'elle ne "
+"fonctionne pas correctement et que vous devriez contacter  votre hébergeur "
+"pour ce problème afin de leur demander de configurer la fonctionnalité sur "
+"votre serveur."
+
+#: ../modules/forms_statistics/controller.php:40
+#, php-format
+msgid "Statistics for %s"
+msgstr "Statistiques pour %s"
+
+#: ../modules/forms_statistics/controller.php:43
+msgid "Views"
+msgstr "Vues"
+
+#: ../modules/forms_statistics/controller.php:44
+msgid "Unique Views"
+msgstr "Vues uniques"
+
+#: ../modules/forms_statistics/controller.php:45
+msgid "Actions"
+msgstr "Actions"
+
+#: ../modules/forms_statistics/controller.php:46
+msgid "Conversion"
+msgstr "Conversion"
+
+#: ../modules/forms_statistics/mod.php:7
+msgid "Displayed"
+msgstr "Affiché"
+
+#: ../modules/forms_statistics/mod.php:8
+msgid "Submitted"
+msgstr "Publié"
+
+#: ../modules/forms_statistics/mod.php:9
+msgid "Subscribe Success"
+msgstr "Abonnement réussi"
+
+#: ../modules/forms_statistics/mod.php:10
+msgid "Subscribe Fail"
+msgstr "Erreur lors de l'abonnement"
+
+#: ../modules/forms_statistics/models/forms_statistics.php:30
+msgid "Send me some info, pls"
+msgstr "Envoyez-moi des infos, SVP"
+
+#: ../modules/forms_widget/mod.php:18
+msgid "Display Supsystic Subscribe Form"
+msgstr "Afficher le formulaire d'abonnement Supsystic"
+
+#: ../modules/forms_widget/mod.php:23
+msgid "Subscribe Form"
+msgstr "Formulaire d'abonnement"
+
+#: ../modules/importer/controller.php:7
+#: ../modules/subscribers_lists/controller.php:47
+#: ../modules/subscribers_lists/controller.php:66
+#, php-format
+msgid "%s subscribers imported"
+msgstr "%s Abonnés importés"
+
+#: ../modules/importer/mod.php:20
+msgid "Importer"
+msgstr "Import"
+
+#: ../modules/importer/views/tpl/impAdmin.php:64
+#, php-format
+msgid "%s is not supported for now"
+msgstr "%s n’est pas supporté actuellement."
+
+#: ../modules/mail/controller.php:7
+msgid "Now check your email inbox / spam folders for test mail."
+msgstr ""
+"Veuillez vérifiez votre boîte de réception / dossier anti-spam pour le mail "
+"test."
+
+#: ../modules/mail/mod.php:248
+msgid "Cannot send email - problem with send server"
+msgstr "Impossible d’envoyer un email - problème avec le serveur d'envoi"
+
+#: ../modules/mail/mod.php:263
+msgid "Mail"
+msgstr "Email"
+
+#: ../modules/mail/mod.php:265
+msgid "Mail function tested and work"
+msgstr "Fonction email testée et fonctionnelle"
+
+#: ../modules/mail/mod.php:266
+msgid "Notify Email"
+msgstr "Notifier email"
+
+#: ../modules/mail/mod.php:266
+msgid "Email address used for all email notifications from plugin"
+msgstr "Adresse email utilisée pour toutes les notifications email du plugin"
+
+#: ../modules/mail/models/mail.php:7
+msgid "Test email functionality"
+msgstr "Tester la fonctionnalité email"
+
+#: ../modules/mail/models/mail.php:8
+#, php-format
+msgid "This is a test email for testing email functionality on your site, %s."
+msgstr ""
+"Il s’agit d’un e-mail test pour les fonctionnalités de messagerie sur votre "
+"site, %s."
+
+#: ../modules/mail/models/mail.php:15
+msgid "Empty email address"
+msgstr "Adresse email vide"
+
+#: ../modules/mail/views/tpl/mailAdmin.php:47
+#: ../modules/options/views/tpl/optionsSettingsTabContent.php:51
+#, php-format
+msgid "Turned On %s"
+msgstr "Activée sur %s"
+
+#: ../modules/mail/views/tpl/mailAdmin.php:48
+#: ../modules/options/views/tpl/optionsSettingsTabContent.php:52
+#, php-format
+msgid "Turned Off %s"
+msgstr "Désactivée sur %s"
+
+#: ../modules/newsletters/controller.php:30
+msgid "Check Statistics"
+msgstr "Vérifiez les statistiques"
+
+#: ../modules/newsletters/controller.php:47
+msgid "Sent"
+msgstr "Envoyé"
+
+#: ../modules/newsletters/controller.php:48 ../modules/statistics/mod.php:18
+msgid "Opened"
+msgstr "Ouvert"
+
+#: ../modules/newsletters/controller.php:49
+msgid "including"
+msgstr "comprenant"
+
+#: ../modules/newsletters/controller.php:49
+msgid "unique views"
+msgstr "Vues uniques"
+
+#: ../modules/newsletters/controller.php:50 ../modules/statistics/mod.php:20
+msgid "Clicked"
+msgstr "Cliqué"
+
+#: ../modules/newsletters/controller.php:128
+msgid "Done, cloned Newsletter will be opened right now"
+msgstr "Fait, la Newsletter dupliquée va maintenant s'ouvrir"
+
+#: ../modules/newsletters/controller.php:162
+msgid "Done. Now check your email messages."
+msgstr "Fait. Veuillez vérifier votre boîte mail."
+
+#: ../modules/newsletters/mod.php:16
+msgid "Create Newsletter"
+msgstr "Créer une newsletter"
+
+#: ../modules/newsletters/mod.php:22
+msgid "Newsletters"
+msgstr "Newsletters"
+
+#: ../modules/newsletters/mod.php:58
+msgid "Newsletter"
+msgstr "Lettre d'informations"
+
+#: ../modules/newsletters/models/newsletters.php:62
+#: ../modules/newsletters/models/newsletters.php:288
+msgid "Can not copy template data"
+msgstr "Impossible de copier les données du modèle"
+
+#: ../modules/newsletters/models/newsletters.php:64
+msgid "Please select Newsletter Subscribe List(s)"
+msgstr "Veuillez sélectionner la liste d'abonnée à la Newsletter"
+
+#: ../modules/newsletters/models/newsletters.php:66
+msgid "Please select Newsletter template from list below"
+msgstr "Sélectionnez un modèle de Newsletter dans la liste ci-dessous"
+
+#: ../modules/newsletters/models/newsletters.php:433
+#: ../modules/subscribers/models/subscribers.php:20
+msgid "Disabled"
+msgstr "Désactivée"
+
+#: ../modules/newsletters/models/newsletters.php:434
+msgid "Setup in Progress"
+msgstr "paramétrage en cours"
+
+#: ../modules/newsletters/models/newsletters.php:435
+msgid "Sending"
+msgstr "Envoi"
+
+#: ../modules/newsletters/models/newsletters.php:436
+msgid "Paused"
+msgstr "En pause"
+
+#: ../modules/newsletters/models/newsletters.php:437
+msgid "Waiting"
+msgstr "En attente"
+
+#: ../modules/newsletters/models/newsletters.php:438
+msgid "Complete"
+msgstr "Terminé"
+
+#: ../modules/newsletters/models/newsletters.php:486
+msgid "Send me some data pls"
+msgstr "Envoyez-moi des données, SVP"
+
+#: ../modules/newsletters/models/newsletters.php:501
+msgid "Can not find required Newsletter"
+msgstr "Impossible de trouver la newsletter requise"
+
+#: ../modules/newsletters/views/newsletters.php:58
+msgid "Modify Newsletter Template"
+msgstr "Modifier le modèle de Newsletter"
+
+#: ../modules/newsletters/views/newsletters.php:67
+#: ../modules/statistics/views/statistics.php:6
+msgid "Cannot find required Newsletter"
+msgstr "Impossible de trouver la newsletter requise"
+
+#: ../modules/newsletters/views/newsletters.php:117
+msgid "Main"
+msgstr "Principal"
+
+#: ../modules/newsletters/views/newsletters.php:122
+msgid "Send Options"
+msgstr "Options d'envoi"
+
+#: ../modules/newsletters/views/newsletters.php:127
+msgid "Recipients"
+msgstr "Destinataires"
+
+#: ../modules/newsletters/views/tpl/nlAddNewAdmin.php:24
+#, php-format
+msgid ""
+"Change Template to any other from the list below or <a class=\"button\" href="
+"\"%s\">return to Newsletter edit</a>"
+msgstr ""
+"Changez le modèle pour un autre dans la liste ci-dessous ou <a class=\"button"
+"\" href=\"%s\">retour à l'édition de la Newsletter</a>"
+
+#: ../modules/newsletters/views/tpl/nlAdmin.php:21
+#, php-format
+msgid ""
+"You have no Newsletters for now. <a href=\"%s\" style=\"font-style: italic;"
+"\">Create</a> your Newsletter!"
+msgstr ""
+"Vous n’avez aucune Newsletters pour l’instant. <a href=\"%s\" style=\"font-"
+"style: italic;\">Créez</a> votre Newsletter !"
+
+#: ../modules/newsletters/views/tpl/nlEditSubscribers.php:5
+msgid "Select lists of Subscribers that will receive your Newsletter"
+msgstr "Sélectionner des listes d’abonnés qui vont recevoir votre Newsletter"
+
+#: ../modules/newsletters/views/tpl/nlEditSubscribers.php:18
+msgid ""
+"By changing SUbscribers lists in field above - recepients cont will be "
+"changed too"
+msgstr ""
+"En changeant de listes d'abonnés dans le champs ci-dessous, les "
+"destinataires vont aussi changer"
+
+#: ../modules/newsletters/views/tpl/nlSendOptions.php:5
+msgid "Subjectfor your Newsletter email"
+msgstr "Sujet pour votre Newsletter"
+
+#: ../modules/newsletters/views/tpl/nlSendOptions.php:16
+msgid "Send From Name parameter in your Newsletter"
+msgstr "Nom de l'expéditeur de votre Newsletter"
+
+#: ../modules/newsletters/views/tpl/nlSendOptions.php:27
+msgid "Send From Email parameter in your Newsletter"
+msgstr "Email de l'expéditeur de votre Newsletter"
+
+#: ../modules/newsletters/views/tpl/nlSendOptions.php:38
+msgid "Reply To Name parameter in your Newsletter"
+msgstr "Nom de \"Répondre à\" de votre Newsletter"
+
+#: ../modules/newsletters/views/tpl/nlSendOptions.php:49
+msgid "Reply To Email parameter in your Newsletter"
+msgstr "E-mail de \"Répondre à\" de votre Newsletter"
+
+#: ../modules/newsletters/views/tpl/nlSendOptions.php:60
+msgid ""
+"Email address where delivery error messages are sent by mailing systems (eg. "
+"mailbox full, invalid address, ...)"
+msgstr ""
+"Adresse e-mail où les messages d'erreur de livraison sont envoyés par les "
+"systèmes de messagerie (par exemple, boîte aux lettres pleine, adresse "
+"invalide, ...)"
+
+#: ../modules/newsletters/views/tpl/nlSendOptions.php:71
+msgid "Send test email - to check that everything is working as it should"
+msgstr ""
+"Envoyer un email de test - pour vérifier que tout fonctionne correctement"
+
+#: ../modules/octo/controller.php:203
+msgid "Done, redirecting to new PopUp..."
+msgstr "Fait, redirection vers le nouveau formulaire..."
+
+#: ../modules/octo/mod.php:43
+msgid "Button"
+msgstr "Bouton"
+
+#: ../modules/octo/models/octo.php:108 ../modules/octo/models/octo.php:239
+msgid "Invalid Octo ID"
+msgstr "ID Octo non valide"
+
+#: ../modules/octo/models/octo_blocks.php:214
+msgid "Invalid Original ID"
+msgstr "ID d'origine non valide"
+
+#: ../modules/octo/views/octo.php:433
+msgid "Read More"
+msgstr "En savoir plus"
+
+#: ../modules/octo/views/tpl/octoEditorFooter.php:718
+msgid "Search, for example - pencil, music, ..."
+msgstr "Recherche, par exemple - crayon, musique, ..."
+
+#: ../modules/octo/views/tpl/octoEditorFooter.php:855
+msgid "Top"
+msgstr "Haut"
+
+#: ../modules/octo/views/tpl/octoEditorFooter.php:856
+msgid "Left"
+msgstr "Gauche"
+
+#: ../modules/octo/views/tpl/octoEditorFooter.php:857
+msgid "Right"
+msgstr "Droit"
+
+#: ../modules/octo/views/tpl/octoEditorFooter.php:858
+#, fuzzy
+#| msgid "bottom"
+msgid "Bottom"
+msgstr "bas"
+
+#: ../modules/octo/views/tpl/octoMainMetaBox.php:4
+#, php-format
+msgid "Activate %s"
+msgstr "Activer %s"
+
+#: ../modules/octo/views/tpl/octoMainMetaBox.php:16
+#, php-format
+msgid "Deactivate %s"
+msgstr "Désactiver %s"
+
+#: ../modules/octo/views/tpl/octoRenderForPost.php:160
+#: ../modules/octo/views/tpl/octoRenderForPost.php:207
+msgid "Stretch"
+msgstr "Étirer"
+
+#: ../modules/octo/views/tpl/octoRenderForPost.php:160
+#: ../modules/octo/views/tpl/octoRenderForPost.php:207
+msgid "Center"
+msgstr "Centré"
+
+#: ../modules/octo/views/tpl/octoRenderForPost.php:160
+#: ../modules/octo/views/tpl/octoRenderForPost.php:207
+msgid "Tile"
+msgstr "Mosaïque"
+
+#: ../modules/options/mod.php:129
+msgid "General"
+msgstr "Général"
+
+#: ../modules/options/mod.php:131
+msgid "Subscribers Login email Subject"
+msgstr "Sujet du mail d'abonnement"
+
+#: ../modules/options/mod.php:131
+msgid ""
+"Subject for email message that will be sent to subscribers when they will "
+"try to login using our login form."
+msgstr ""
+"Sujet du mail envoyé aux abonnés lorsqu'ils essaieront de se connecter en "
+"utilisant notre formulaire de connexion."
+
+#: ../modules/options/mod.php:132
+msgid "Edit Subscription settings"
+msgstr "Modifier les paramètres d'abonnement"
+
+#: ../modules/options/mod.php:133
+msgid "Subscribers Login email Text"
+msgstr "Texte du mail d'abonnement"
+
+#: ../modules/options/mod.php:133
+msgid ""
+"Email message text that will be sent to subscribers when they will try to "
+"login using our login form. You can use here variables "
+"[subscriber_login_url] - to define login URL."
+msgstr ""
+"Texte du message électronique qui sera envoyé aux abonnés lorsqu'ils "
+"essaieront de se connecter en utilisant notre formulaire de connexion. Vous "
+"pouvez utiliser ici la variable [subscriber_login_url] - pour définir l'URL "
+"de connexion."
+
+#: ../modules/options/mod.php:134
+msgid ""
+"You can login to your Subscription profile using <a target=\"_blank\" href="
+"\"[subscriber_login_url]\">this link</a>."
+msgstr ""
+"Vous pouvez vous connecter à votre profil d'abonnement en utilisant <a "
+"target=\"_blank\" href=\"[subscriber_login_url]\">ce lien</a> ."
+
+#: ../modules/options/mod.php:136
+#, fuzzy
+#| msgid "Subscribers Login email Subject"
+msgid "Subscribers Confirm email Subject"
+msgstr "Sujet du mail d'abonnement"
+
+#: ../modules/options/mod.php:136
+#, fuzzy
+#| msgid ""
+#| "Subject for email message that will be sent to subscribers when they will "
+#| "try to login using our login form."
+msgid ""
+"Subject for email message that will be sent to subscribers for email "
+"confirmation."
+msgstr ""
+"Sujet du mail envoyé aux abonnés lorsqu'ils essaieront de se connecter en "
+"utilisant notre formulaire de connexion."
+
+#: ../modules/options/mod.php:137
+msgid "Edit Confirm"
+msgstr ""
+
+#: ../modules/options/mod.php:138
+#, fuzzy
+#| msgid "Subscribers Login email Text"
+msgid "Subscribers Confirm email Text"
+msgstr "Texte du mail d'abonnement"
+
+#: ../modules/options/mod.php:138
+msgid ""
+"Email message text that will be sent to subscribers for email confirmation. "
+"You can use here variables [subscriber_confirm_url] - to define confirm URL, "
+"[user_username] - for subscriber username, [user_email] - for subscriber "
+"email, [siteurl] - for site URL, [sitename] - your site name."
+msgstr ""
+
+#: ../modules/options/mod.php:139
+msgid ""
+"Hello!<br />Your email [user_email] was used on site <a href=\"[siteurl] "
+"target=\"_blank\">[sitename]</a> for subscription. Click on <a href="
+"\"[subscriber_confirm_url]\" target=\"_blank\">following URL</a>to finish "
+"subscrption process."
+msgstr ""
+
+#: ../modules/options/mod.php:141
+msgid "Send With"
+msgstr "Envoyer avec"
+
+#: ../modules/options/mod.php:141
+msgid "You can send your emails with different email sending engines."
+msgstr ""
+"Vous pouvez envoyer vos emails avec différents moteurs d'envoi d'email."
+
+#: ../modules/options/mod.php:142
+msgid "WordPress PHP Mail"
+msgstr "WordPress PHP Mail"
+
+#: ../modules/options/mod.php:142
+msgid "Third party providers (SMTP)"
+msgstr "Fournisseurs tiers (SMTP)"
+
+#: ../modules/options/mod.php:142
+msgid "Sendmail"
+msgstr "Sendmail"
+
+#: ../modules/options/mod.php:144
+msgid "SMTP Hostname"
+msgstr "Serveur SMTP"
+
+#: ../modules/options/mod.php:144
+msgid "e.g. smtp.mydomain.com"
+msgstr "par exemple smtp.mondomain.com"
+
+#: ../modules/options/mod.php:145
+msgid "SMTP Login"
+msgstr "Login SMTP"
+
+#: ../modules/options/mod.php:145
+msgid "Your email login"
+msgstr "Votre adresse e-mail"
+
+#: ../modules/options/mod.php:146
+msgid "SMTP Password"
+msgstr "Mot de passe SMTP"
+
+#: ../modules/options/mod.php:146
+msgid "Your emaail password"
+msgstr "Votre mot de passe email"
+
+#: ../modules/options/mod.php:147
+msgid "SMTP Port"
+msgstr "Port SMTP"
+
+#: ../modules/options/mod.php:147
+msgid "Port for your SMTP provider"
+msgstr "Port pour votre fournisseur SMTP"
+
+#: ../modules/options/mod.php:148
+msgid "SMTP Secure"
+msgstr "SMTP Secure"
+
+#: ../modules/options/mod.php:148
+msgid ""
+"Use secure SMTP connection. If you enable this option - make sure that your "
+"server support such secure connections."
+msgstr ""
+"Utilisez une connexion SMTP sécurisée. Si vous activez cette option, assurez-"
+"vous que votre serveur prend en charge de telles connexions sécurisées."
+
+#: ../modules/options/mod.php:151
+msgid "Sendmail Path"
+msgstr "Chemin Sendmail"
+
+#: ../modules/options/mod.php:151
+msgid ""
+"You can check it on your server, or ask about it - in your hosting provider."
+msgstr ""
+"Vous pouvez le vérifier sur votre serveur, ou auprès de votre fournisseur "
+"d'hébergement."
+
+#: ../modules/options/mod.php:153
+msgid "Test selected send engine"
+msgstr "Test du moteur d'envoi sélectionné"
+
+#: ../modules/options/mod.php:153
+msgid ""
+"Just to check that selected sending method work - you can send test email "
+"here"
+msgstr ""
+"Juste pour vérifier que la méthode d'envoi sélectionnée fonctionne - vous "
+"pouvez envoyer un email de test ici"
+
+#: ../modules/options/mod.php:155
+msgid "Send usage statistics"
+msgstr "Envoyer les statistiques d'utilisation"
+
+#: ../modules/options/mod.php:155
+msgid ""
+"Send information about what plugin options you prefer to use, this will help "
+"us make our solution better for You."
+msgstr ""
+"Envoyer-nous des informations sur les options de ce plugin que vous préférez "
+"utiliser, cela nous aidera à l'améliorer."
+
+#: ../modules/options/mod.php:156
+msgid "Enable promo link"
+msgstr "Activer le lien promo"
+
+#: ../modules/options/mod.php:156
+msgid ""
+"We are trying to make our plugin better for you, and you can help us with "
+"this. Just check this option - and small promotion link will be added in the "
+"bottom of your Newsletter. This is easy for you - but very helpful for us!"
+msgstr ""
+"Nous essayons de d'améliorer notre plugin, et vous pouvez nous aider avec "
+"ceci. Cochez cette option et un petit lien promotionnel sera ajouté au bas "
+"de votre Newsletter. C'est facile pour vous - mais très utile pour nous!"
+
+#: ../modules/options/mod.php:157
+msgid "User role can use plugin"
+msgstr "Rôle de l’utilisateur pour utiliser le plugin"
+
+#: ../modules/options/mod.php:157
+msgid "User with next roles will have access to whole plugin from admin area."
+msgstr ""
+"Les utilisateurs avec les rôles suivants auront accès à l'ensemble du plugin "
+"dans la zone d’administration."
+
+#: ../modules/options/mod.php:158
+msgid "Disable HTML Emails content type"
+msgstr "Désactiver le type de contenu HTML des Emails"
+
+#: ../modules/options/mod.php:158
+msgid ""
+"Some servers fail send emails with HTML content type: content-type = \"text/"
+"html\", so if you have problems with sending emails from our plugn - try to "
+"disable this feature here."
+msgstr ""
+"Certains serveurs ne parviennent pas à envoyer des emails avec le type de "
+"contenu HTML : content-type = « text/html », donc si vous avez des problèmes "
+"avec l’envoi d’emails à l'aide de notre plugin - essayez de désactiver cette "
+"fonction ici."
+
+#: ../modules/options/mod.php:159
+msgid "Disable CDN usage"
+msgstr "Désactiver l'utilisation de CDN"
+
+#: ../modules/options/mod.php:159
+#, php-format
+msgid ""
+"By defaul our plugin is using CDN server to store there part of it's files - "
+"images, javascript and CSS libraries. This was designed in that way to "
+"reduce plugin size, make it lighter and easier for usage. But if you need to "
+"store all files - on your server - you can disable this option here, then "
+"upload plugin CDN files to your own site like described in <a href=\"%s\" "
+"target=\"_blank\">this article</a>."
+msgstr ""
+"Par defaul notre plugin utilise le serveur CDN pour stocker une partie de "
+"ses fichiers - images, javascript et CSS. Cela a été conçu de cette façon "
+"pour réduire la taille du plugin, le rendre plus léger et plus facile à "
+"utiliser. Mais si vous avez besoin de stocker tous les fichiers - sur votre "
+"serveur - vous pouvez désactiver cette option ici, puis télécharger les "
+"fichiers CDN du plugin sur votre propre site comme décrit dans <a href=\"%s"
+"\" target=\"_blank\">cet article</a> ."
+
+#: ../modules/options/models/modules.php:35
+msgid "Module Updated"
+msgstr "Module mis à jour"
+
+#: ../modules/options/models/modules.php:50
+msgid "Module Update Failed"
+msgstr "Échec de mise à jour du module"
+
+#: ../modules/options/models/modules.php:53
+msgid "Error module ID"
+msgstr "Erreur ID module"
+
+#: ../modules/options/models/options.php:64
+msgid "Empty data to save option"
+msgstr "Données vides pour sauvegarde option"
+
+#: ../modules/options/views/options.php:66
+#: ../modules/supsystic_promo/views/supsystic_promo.php:85
+msgid "Undefined"
+msgstr "Indéfini"
+
+#: ../modules/options/views/tpl/optionsAdminPage.php:38
+#, php-format
+msgid ""
+"Please be advised that this template with all other options and PRO "
+"templates is available only in <a target=\"_blank\" href=\"%s\">PRO version</"
+"a>. You can <a target=\"_blank\" href=\"%s\" class=\"button\">Get PRO</a> "
+"today and get this and other PRO templates and features for your Forms!"
+msgstr ""
+"Veuillez noter que ce modèle avec toutes les autres options et modèles PRO "
+"sont disponibles uniquement en <a target=\"_blank\" href=\"%s\">version PRO</"
+"a>. Vous pouvez <a target=\"_blank\" href=\"%s\" class=\"button\">Obtenir "
+"PRO</a> aujourd'hui et obtenir ce modèle PRO et d'autres fonctionnalités "
+"pour vos formulaires !"
+
+#: ../modules/options/views/tpl/optionsAdminPage.php:41
+#, php-format
+msgid ""
+"Please be advised that this option is available only in <a target=\"_blank\" "
+"href=\"%s\">PRO version</a>. You can <a target=\"_blank\" href=\"%s\" class="
+"\"button\">Get PRO</a> today and get this and other PRO option for your "
+"Forms!"
+msgstr ""
+"Veuillez noter que cette option est disponible uniquement en <a target="
+"\"_blank\" href=\"%s\">version PRO</a>. Vous pouvez <a target=\"_blank\" "
+"href=\"%s\" class=\"button\">Obtenir PRO</a> aujourd'hui et obtenir cette et "
+"autre option PRO pour vos formulaires !"
+
+#: ../modules/queue/models/queue.php:142
+msgid "Can not find subscribers for this Newsletter"
+msgstr "Impossible de trouver des abonnés pour cette newsletter"
+
+#: ../modules/schedule/mod.php:26 ../modules/schedule/mod.php:58
+msgid "Once every minute"
+msgstr "Toute les minutes"
+
+#: ../modules/schedule/mod.php:30 ../modules/schedule/mod.php:59
+msgid "Once every two minutes"
+msgstr "Toutes les deux minutes"
+
+#: ../modules/schedule/mod.php:34 ../modules/schedule/mod.php:60
+msgid "Once every ten minutes"
+msgstr "Toutes les dix minutes"
+
+#: ../modules/schedule/mod.php:38 ../modules/schedule/mod.php:61
+msgid "Once every thirty minutes"
+msgstr "Toutes les trente minutes"
+
+#: ../modules/schedule/mod.php:42 ../modules/schedule/mod.php:63
+msgid "Once every two hours"
+msgstr "Toutes les deux heures"
+
+#: ../modules/schedule/mod.php:46
+msgid "Once a week"
+msgstr "Toutes les semaines"
+
+#: ../modules/schedule/mod.php:50
+msgid "Once every 28 days"
+msgstr "Tous les 28 jours"
+
+#: ../modules/schedule/mod.php:56
+msgid "Emails per Queue"
+msgstr "Emails par file d'attente"
+
+#: ../modules/schedule/mod.php:56
+msgid ""
+"Plugin is sending emails by batches - this is made because of big amount of "
+"emails can just stop your server to work."
+msgstr ""
+"Le plugin envoie des courriels par lots - car un grand nombre d'email "
+"envoyés simultanément peuvent bloquer votre serveur"
+
+#: ../modules/schedule/mod.php:57
+msgid "Emails Queue check Frequency"
+msgstr "Fréquence de vérification de la file d'attente des mails"
+
+#: ../modules/schedule/mod.php:62
+msgid "Once every hour"
+msgstr "Toutes les heures"
+
+#: ../modules/statistics/mod.php:19
+msgid "Unique Opened"
+msgstr "Vues uniques"
+
+#: ../modules/statistics/models/statistics.php:39
+msgid "Please specify type, newsletter and subscriber"
+msgstr "Veuillez préciser le type, la Newsletter et l'abonné"
+
+#: ../modules/subscribers/controller.php:57
+#, php-format
+msgid "You unsubscribed from list(s) %s"
+msgstr "Vous vous êtes désinscrit de la (des) liste (s)%s"
+
+#: ../modules/subscribers/controller.php:89
+msgid "Login URL was sent to your email. Check it!"
+msgstr ""
+"L'URL de connexion a été envoyée à votre adresse e-mail. Merci de vérifier "
+"votre boite !"
+
+#: ../modules/subscribers/controller.php:97
+msgid "Welcome back!"
+msgstr "Ravi de vous revoir"
+
+#: ../modules/subscribers/controller.php:109
+#, fuzzy
+#| msgid "Settings"
+msgid "Greetings!"
+msgstr "Paramètres"
+
+#: ../modules/subscribers/mod.php:24
+msgid "Subscribers"
+msgstr "Abonnés"
+
+#: ../modules/subscribers/mod.php:30
+msgid "Create Subscriber"
+msgstr "Créer un abonné"
+
+#: ../modules/subscribers/mod.php:77
+msgid "Subscription Settings"
+msgstr "Paramètres d'abonnement"
+
+#: ../modules/subscribers/models/subscribers.php:21
+msgid "Enabled"
+msgstr "Activé"
+
+#: ../modules/subscribers/models/subscribers.php:85
+#: ../modules/subscribers/models/subscribers.php:373
+#: ../modules/subscribers/models/subscribers.php:438
+msgid "Empty or invalid Email"
+msgstr "Adresse email invalide."
+
+#: ../modules/subscribers/models/subscribers.php:87
+msgid "Empty or invalid Username"
+msgstr "Nom d'utilisateur invalide"
+
+#: ../modules/subscribers/models/subscribers.php:325
+#: ../modules/subscribers/models/subscribers.php:453
+#: ../modules/subscribers/models/subscribers.php:467
+msgid "Invalid subscriber"
+msgstr "Abonné non valide"
+
+#: ../modules/subscribers/models/subscribers.php:327
+#: ../modules/subscribers/models/subscribers.php:455
+#: ../modules/subscribers/models/subscribers.php:469
+msgid "Some data is missing here"
+msgstr "Certaines données sont manquantes"
+
+#: ../modules/subscribers/models/subscribers.php:371
+msgid "Can't find this Email"
+msgstr "Impossible de trouver cet email"
+
+#: ../modules/subscribers/views/subscribers.php:11
+msgid "All"
+msgstr "Tous"
+
+#: ../modules/subscribers/views/subscribers.php:90
+msgid "First Name"
+msgstr "Prénom"
+
+#: ../modules/subscribers/views/subscribers.php:91
+msgid "Last Name"
+msgstr "Nom"
+
+#: ../modules/subscribers/views/tpl/sAdmin.php:41
+#, php-format
+msgid ""
+"You have no Subscribers for now. <a href=\"%s\" style=\"font-style: italic;"
+"\">Create</a> your Subscribers!"
+msgstr ""
+"Vous n'avez aucun abonné pour le moment. <a href=\"%s\" style=\"font-style: "
+"italic;\">Créez</a> vos abonnés!"
+
+#: ../modules/subscribers/views/tpl/sEditAdmin.php:86
+#, fuzzy
+#| msgid "Select Lists"
+msgid "Select some Lists"
+msgstr "Sélectionnez des listes"
+
+#: ../modules/subscribers/views/tpl/sPageContent.php:35
+msgid "Save changes"
+msgstr "Sauvegarder les modifications"
+
+#: ../modules/subscribers/views/tpl/sPageLoginContent.php:15
+msgid "Login"
+msgstr "Login"
+
+#: ../modules/subscribers_lists/controller.php:56
+msgid "Error upload file - it's empty!"
+msgstr "Erreur lors du téléchargement du fichier - c'est vide!"
+
+#: ../modules/subscribers_lists/controller.php:59
+#, php-format
+msgid "Error upload file with error code - %s"
+msgstr "Erreur lors du téléchargement du fichier avec le code d'erreur -%s"
+
+#: ../modules/subscribers_lists/mod.php:9
+msgid "Subscription Lists"
+msgstr "Listes d'abonnés"
+
+#: ../modules/subscribers_lists/models/subscribers_lists.php:69
+msgid "Empty emails list"
+msgstr "Liste d'email vide"
+
+#: ../modules/subscribers_lists/models/subscribers_lists.php:71
+#: ../modules/subscribers_lists/models/subscribers_lists.php:143
+msgid "Provide list ID"
+msgstr "Fournissez l'ID de la liste"
+
+#: ../modules/subscribers_lists/models/subscribers_lists.php:137
+msgid ""
+"File should contain more then 1 row, at least 1 row should be for headers"
+msgstr ""
+"Le fichier devrait contenir plus d'1 ligne, au moins 1 ligne pour les en-"
+"têtes"
+
+#: ../modules/subscribers_lists/models/subscribers_lists.php:139
+msgid "Empty data in file, or invalid file type"
+msgstr "Données vides dans le fichier ou type de fichier non valide"
+
+#: ../modules/subscribers_lists/models/subscribers_lists.php:141
+msgid "Empty file path"
+msgstr "Emplacement de fichier vide"
+
+#: ../modules/subscribers_lists/models/subscribers_lists.php:185
+msgid "WordPress Subscribers"
+msgstr "Abonnés de WordPress"
+
+#: ../modules/subscribers_lists/views/subscribers_lists.php:14
+msgid "Can not find Subscribe List, sorry..."
+msgstr "Impossible de trouver la liste d'abonnement, désolé ..."
+
+#: ../modules/subscribers_lists/views/tpl/slEditAdmin.php:83
+msgid "Upload CSV"
+msgstr "Charger le fichier CSV"
+
+#: ../modules/subscribers_lists/views/tpl/slEditAdmin.php:98
+#, php-format
+msgid ""
+"Go to global <a href=\"%s\" target=\"_blank\" class=\"button\"><i class=\"fa "
+"fa-upload\"></i>&nbsp;Import Tool</a>"
+msgstr ""
+"Aller à l'<a href=\"%s\" target=\"_blank\" class=\"button\"><i class=\"fa fa-"
+"upload\"></i>&nbsp;Outil d'importation global</a>"
+
+#: ../modules/supsystic_promo/controller.php:7
+#: ../modules/supsystic_promo/controller.php:103
+#: ../modules/supsystic_promo/controller.php:111
+#: ../modules/supsystic_promo/controller.php:119
+msgid "Information was saved. Thank you!"
+msgstr "Les informations ont été sauvegardées. Merci !"
+
+#: ../modules/supsystic_promo/controller.php:23
+msgid ""
+"Please don't send contact requests so often - wait for response for your "
+"previous requests."
+msgstr ""
+"Merci de ne pas envoyer des demandes trop souvent - Veuillez attendre la "
+"réponse à vos demandes précédentes."
+
+#: ../modules/supsystic_promo/controller.php:45
+msgid "Please enter valid email address"
+msgstr "Merci d'entrer une adresse email valide"
+
+#: ../modules/supsystic_promo/mod.php:36
+#, php-format
+msgid ""
+"<h3>Hey, I noticed you just use %s over a week – that’s awesome!</"
+"h3><p>Could you please do me a BIG favor and give it a 5-star rating on "
+"WordPress? Just to help us spread the word and boost our motivation.</p>"
+msgstr ""
+"<h3>Hey, j’ai remarqué que vous utilisiez %s depuis plus d’une semaine – "
+"c’est génial !</h3><p>Pourriez-vous, s’il vous plaît, me faire une grande "
+"faveur et lui donner une note de 5 étoiles sur WordPress ? Juste pour nous "
+"aider en nous motivant !!.</p>"
+
+#: ../modules/supsystic_promo/mod.php:37 ../modules/supsystic_promo/mod.php:43
+msgid "Ok, you deserve it"
+msgstr "D'accord, vous le méritez"
+
+#: ../modules/supsystic_promo/mod.php:38 ../modules/supsystic_promo/mod.php:44
+msgid "Nope, maybe later"
+msgstr "Non, peut-être plus tard"
+
+#: ../modules/supsystic_promo/mod.php:39
+msgid "I already did"
+msgstr "Je l'ai déjà fait"
+
+#: ../modules/supsystic_promo/mod.php:40
+#, php-format
+msgid "<h3>More then eleven days with our %s plugin - Congratulations!</h3>"
+msgstr "<h3>Plus de onze jours avec notre plugin %s - félicitations !</h3>"
+
+#: ../modules/supsystic_promo/mod.php:41
+msgid ""
+"<p>On behalf of the entire <a href=\"https://supsystic.com/\" target=\"_blank"
+"\">supsystic.com</a> company I would like to thank you for been with us, and "
+"I really hope that our software helped you.</p>"
+msgstr ""
+"<p>Au nom de l'équipe de <a href=\"https://supsystic.com/\" target=\"_blank"
+"\">supsystic.com</a> , je tiens à vous remercier pour avoir été avec nous, "
+"et j’espère vraiment que notre logiciel vous a aidé.</p>"
+
+#: ../modules/supsystic_promo/mod.php:42
+msgid ""
+"<p>And today, if you want, - you can help us. This is really simple - you "
+"can just add small promo link to our site under your Forms. This is small "
+"step for you, but a big help for us! Sure, if you don't want - just skip "
+"this and continue enjoy our software!</p>"
+msgstr ""
+"<p>Et aujourd'hui, si vous voulez, - vous pouvez nous aider. C’est très "
+"simple - vous pouvez simplement ajouter un petit lien promo vers notre site "
+"dans vos formulaires. Il s’agit d'un petit pas pour vous, mais une grande "
+"aide pour nous ! Bien sûr, si vous ne le voulez pas, vous pouvez juste "
+"ignorer cela et continuer à profiter de notre logiciel !</p>"
+
+#: ../modules/supsystic_promo/mod.php:45
+msgid "Skip"
+msgstr "Ignorer"
+
+#: ../modules/supsystic_promo/mod.php:92
+msgid "Overview"
+msgstr "Aperçu"
+
+#: ../modules/supsystic_promo/mod.php:95
+msgid "Featured Plugins"
+msgstr "Plugins intégrés"
+
+#: ../modules/supsystic_promo/mod.php:102
+msgid "Constant Contact - PRO"
+msgstr "Contact constant - PRO"
+
+#: ../modules/supsystic_promo/mod.php:103
+msgid "Campaign Monitor - PRO"
+msgstr "Moniteur de campagne - PRO"
+
+#: ../modules/supsystic_promo/mod.php:104
+msgid "Vertical Response - PRO"
+msgstr "Réponse verticale - PRO"
+
+#: ../modules/supsystic_promo/mod.php:105
+msgid "SendGrid - PRO"
+msgstr "SendGrid - PRO"
+
+#: ../modules/supsystic_promo/mod.php:106
+msgid "GetResponse - PRO"
+msgstr "GetResponse - PRO"
+
+#: ../modules/supsystic_promo/mod.php:107
+msgid "iContact - PRO"
+msgstr "iContact - PRO"
+
+#: ../modules/supsystic_promo/mod.php:108
+msgid "Active Campaign - PRO"
+msgstr "Campagne active - PRO"
+
+#: ../modules/supsystic_promo/mod.php:109
+msgid "Mailrelay - PRO"
+msgstr "Mailrelay - PRO"
+
+#: ../modules/supsystic_promo/mod.php:110
+msgid "arpReach - PRO"
+msgstr "arpReach - PRO"
+
+#: ../modules/supsystic_promo/mod.php:111
+msgid "SG Autorepondeur - PRO"
+msgstr "SG Autorepondeur - PRO"
+
+#: ../modules/supsystic_promo/mod.php:112
+msgid "Benchmark - PRO"
+msgstr "Benchmark - PRO"
+
+#: ../modules/supsystic_promo/mod.php:113
+msgid "InfusionSoft - PRO"
+msgstr "InfusionSoft - PRO"
+
+#: ../modules/supsystic_promo/mod.php:114
+msgid "SalesForce - Web-to-Lead - PRO"
+msgstr "SalesForce - Web-to-Lead - PRO"
+
+#: ../modules/supsystic_promo/mod.php:115
+msgid "ConvertKit - PRO"
+msgstr "ConvertKit - PRO"
+
+#: ../modules/supsystic_promo/mod.php:116
+msgid "Emma - PRO"
+msgstr "Emma - PRO"
+
+#: ../modules/supsystic_promo/mod.php:187
+msgid "Website"
+msgstr "Site web"
+
+#: ../modules/supsystic_promo/mod.php:188
+msgid "Subject"
+msgstr "Sujet"
+
+#: ../modules/supsystic_promo/mod.php:189
+msgid "Topic"
+msgstr "Theme"
+
+#: ../modules/supsystic_promo/mod.php:190
+msgid "Plugin options"
+msgstr "Options du plugin"
+
+#: ../modules/supsystic_promo/mod.php:191
+msgid "Report a bug"
+msgstr "Signaler un bug"
+
+#: ../modules/supsystic_promo/mod.php:192
+msgid "Require a new functionality"
+msgstr "Demander une nouvelle fonctionnalité"
+
+#: ../modules/supsystic_promo/mod.php:193
+msgid "Other"
+msgstr "Autre"
+
+#: ../modules/supsystic_promo/mod.php:195
+msgid "Message"
+msgstr "Message"
+
+#: ../modules/supsystic_promo/mod.php:195
+msgid "Hello Supsystic Team!"
+msgstr "Bonjour l'Equipe Supsystic !"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:25
+msgid "Why Form by Supsystic is \"must have\" for your website?"
+msgstr ""
+"Pourquoi le formulaire de Supsystic est \"le top du top\" pour votre site "
+"web ?"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:26
+#, php-format
+msgid ""
+"Increase your sales by 500%% using Form by Supsystic! More subscribers = "
+"more sales! It's that simple!<br />More info you can find here <a target="
+"\"_blank\" href=\"%s\">Form by Supsystic is \"must have\" for your website</"
+"a>"
+msgstr ""
+"Augmentez vos ventes de 500 %% en utilisant le formulaire de Supsystic ! "
+"Plus d’abonnés = plus de ventes ! C’est aussi simple que cela !<br />Pour "
+"plus d’informations, vous trouverez tout  ici : <a target=\"_blank\" href="
+"\"%s\">les formulaire par Supsystic sont le mieux  pour votre site Web</a>"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:27
+msgid "What is A/B testing?"
+msgstr "Qu'est-ce que le test A / B?"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:28
+#, php-format
+msgid ""
+"A/B testing is one of the easiest ways to increase conversion rates and "
+"learn more about your audience!<br />A/B test in Form plugin involves "
+"testing two or more versions of a newsletters window - an A version "
+"(original) and a B versions (the variation) - with live traffic and "
+"measuring the effect each version has on your conversion rate.<br />To know "
+"more detail – click <a target=\"_blank\" href=\"%s\">here</a>"
+msgstr ""
+"Le test A / B est l'un des moyens les plus faciles pour augmenter les taux "
+"de conversion et en apprendre plus sur votre public <br />Le test A / B dans "
+"le plugin formulaire consiste à tester deux ou plusieurs versions d’une "
+"fenêtre du formulaire - une versions de B (la variation) et une version A "
+"(originale) - avec trafic en direct et mesure de l’effet de votre taux de "
+"conversion pour chaque version.<br />Pour connaître plus en détail – cliquez "
+"<a target=\"_blank\" href=\"%s\">ici</a>"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:29
+msgid "How to enable subscription to Aweber?"
+msgstr "Comment activer l'abonnement à Aweber?"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:30
+#, php-format
+msgid ""
+"In order to subscribe to Aweber you need to know unique list id of your "
+"aweber account - check this <a target=\"_blank\" href=\"%s\">page</a> for "
+"more details."
+msgstr ""
+"Pour vous abonner à Aweber, vous devez connaître l'identifiant unique de "
+"votre compte aweber - consultez cette <a target=\"_blank\" href=\"%s\">page</"
+"a> pour plus de détails."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:31
+msgid "How to subscribe to MailChimp?"
+msgstr "Comment s'abonner à MailChimp?"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:32
+msgid ""
+"To subscribe to MailChimp you need enter your MailChimp API key and name of "
+"list for subscription. To find your MailChimp API key - follow the "
+"instructions below:<br />\n"
+"\t\t\t\t1. Login to your mailchimp account at http://mailchimp.com<br />\n"
+"\t\t\t\t2. From the left main menu, click on your Username, then select "
+"\"Account\" in the flyout menu.<br />\n"
+"\t\t\t\t3. From the account page select \"Extras\" -> \"API Keys\".<br />\n"
+"\t\t\t\t4. Your API Key will be listed in the table labeled \"Your API Keys"
+"\".<br />\n"
+"\t\t\t\t5. Copy / Paste your API key into \"MailChimp API key\" field in "
+"Form edit screen -> Subscribe section."
+msgstr ""
+"Pour vous abonner à MailChimp, vous devez entrer votre clé API Mailchimp et "
+"le nom de votre liste d'abonné. Pour trouver votre clé API Mailchimp, suivez "
+"les instruction ci-dessous :<br />\n"
+"\t\t\t\t1. connectez vous à votre compte MailChimp : http://mailchimp."
+"com<br />\n"
+"\t\t\t\t2. dans le menu de gauche, cliquez sur votre nom d'utilisateur et "
+"sélectionnez \"compte\" dans le menu déroulant.<br />\n"
+"\t\t\t\t3. dans la page de votre compte, sélectionnez \"Extras\" -> \"Clé API"
+"\".<br />\n"
+"\t\t\t\t4. Votre clé API est dans le tableau nommé \" Votre clé API\".<br /"
+">\n"
+"\t\t\t\t5. Copiez/collez votre clé API dans le champ \"Clé API Mailchimp\" "
+"dans l'écran d'édition du formulaire -> section Abonnement."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:38
+msgid "Where to find css code for the pop-up window?"
+msgstr "Où trouver le code CSS pour la fenêtre pop-up?"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:39
+msgid ""
+"With Form by Supsystic you can edit CSS style directly from the plugin. <br /"
+">\n"
+"\t\t\t\tIn WordPress admin area - \n"
+"go to Form by Supsystic -> choose a newsletters, what you need -> click Code "
+"tab. <br />\n"
+"Here you can edit css style of the pop-up window."
+msgstr ""
+"Avec le plugin formulaire de Supsystic vous pouvez modifier le style CSS "
+"directement depuis le plugin.<br />\n"
+"\t\t\t\tDans la zone de l'administration de WordPress - \n"
+"allez au formulaire de Supsystic-> choisissez le Newsletter dont vous avez "
+"besoin-> cliquez sur l'onglet Code.<br />\n"
+"Vous pouvez alors modifier ici le style css de la fenêtre popup."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:43
+msgid "How to get PRO version of plugin for FREE?"
+msgstr "Comment obtenir la version PRO du plugin gratuitement ?"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:44
+#, php-format
+msgid ""
+"You have an incredible opportunity to get PRO version for free. Make "
+"Translation of the plugin! It will be amazing if you take advantage of this "
+"offer!<br />\n"
+"\t\t\t\t\tMore info you can find here <a target=\"_blank\" href=\"%s\">“Get "
+"PRO version of any plugin for FREE”</a>"
+msgstr ""
+"Vous avez une opportunité incroyable pour obtenir la version PRO gratuite. "
+"Faites la traduction de ce plugin ! Il serait étonnant que vous ne profitiez "
+"pas de cette offre !<br />\n"
+"\t\t\t\t\tVous trouverez plus d’informations ici <a target=\"_blank\" href="
+"\"%s\">\"Obtenir la version PRO de n’importe quel plugin gratuitement\"</a>"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:46
+msgid "Translation"
+msgstr "Traduction"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:47
+#, php-format
+msgid ""
+"All available languages are provided with the Supsystic Form plugin. If your "
+"language isn’t available, your plugin will be in English by default.<br />\n"
+"\t\t\t\t\tAvailable Translations: English, French, German, Spanish, "
+"Russian<br />\n"
+"\t\t\t\t\tTranslate or update a translation Form WordPress plugin in your "
+"language and get a Premium license for FREE. <a target=\"_blank\" href=\"%s"
+"\">Contact us.</a>"
+msgstr ""
+"Toutes les langues disponibles sont fournis avec le plugin Supsystic forme. "
+"Si votre langue n’est pas disponible, votre plugin sera en anglais par "
+"défaut.<br />\n"
+"\t\t\t\t\tTraductions : Anglais, Français, Allemand, Espagnol, Russe<br />\n"
+"\t\t\t\t\tTraduisez ou mettez à jour la traduction du plugin WordPress dans "
+"votre langue et obtenez une licence Premium gratuitement. <a target=\"_blank"
+"\" href=\"%s\">Contactez-nous.</a>"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:54
+msgid "Where's my subscribers?"
+msgstr "Où sont mes abonnés ?"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:55
+#, php-format
+msgid ""
+"By default all subscribers add to the WordPress. \n"
+"\t\t\t\t\tTo find your subscribers go to Users tab on the left navigation "
+"menu of WordPress admin area. \n"
+"\t\t\t\t\tAlso available subscription to the Aweber, MailChimp, MailPoet <a "
+"href='%s' target='_blank'>and other</a>. \n"
+"\t\t\t\t\tIf you want to add another subscription service - just <a "
+"href='%s' target='_blank'>contact us</a> and provide URL of the subscription "
+"service."
+msgstr ""
+"Par défaut, tous les abonnés sont ajoutés à votre blog WordPress. \n"
+"\t\t\t\t\tPour trouver vos abonnés allez dans l'onglet utilisateurs du menu "
+"de navigation à gauche de la zone d’administration de WordPress. \n"
+"\t\t\t\t\tsont aussi disponibles : abonnement à Aweber, MailChimp, MailPoet "
+"<a href='%s' target='_blank'>et d'autres</a>. \n"
+"\t\t\t\t\tSi vous souhaitez ajouter un autre service d'abonnement, <a "
+"href='%s' target='_blank'>contactez nous</a> et indiquez l’URL du service "
+"abonnement."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:59
+msgid "Form doesn't appear on the website"
+msgstr "Le formulaire n’apparaît pas sur le site Web"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:60
+#, php-format
+msgid ""
+"If you setup you're Form properly, and it still doesn't show on the page - "
+"there are can be conflict with your WordPress theme or other plugins. <a "
+"href='%s' target='_blank'>Contact us</a> with the URL of the webpage you add "
+"newsletters and screenshots / text of the error messages, if you have one - "
+"and we will help you resolve your issue."
+msgstr ""
+"Si vous configurez votre formulaire correctement, et qu'il ne se montre "
+"toujours pas sur la page - il y a peut être en conflit avec votre thème "
+"WordPress ou d'autres plugins. <a href='%s' target='_blank'>Contactez-nous</"
+"a> avec l'URL de la page Web où vous ajoutez formulaires ainsi que des "
+"captures d' écran / et le texte des messages d'erreur, si vous avez un - et "
+"nous vous aiderons à résoudre votre problème."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:76
+#, php-format
+msgid ""
+"There were some problems while trying to retrieve our news, but you can "
+"always check all list <a target=\"_blank\" href=\"%s\">here</a>."
+msgstr ""
+"Il y a eu quelques problèmes lors de la récupération de nos actualités, mais "
+"vous pouvez toujours vérifier toutes les listes <a target=\"_blank\" href="
+"\"%s\">ici</a>."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:134
+msgid "Popup Plugin"
+msgstr "Popup Plugin"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:134
+msgid ""
+"The Best WordPress PopUp option plugin to help you gain more subscribers, "
+"social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr ""
+"Le meilleur plugin de PopUp de WordPress pour vous aider à gagner plus "
+"d'abonnés, de followers sociaux ou de publicité. Popups responsive avec "
+"options conviviales."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:135
+msgid "Slider Plugin"
+msgstr "Slider Plugin"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:135
+msgid ""
+"Creating slideshows with Slider plugin is fast and easy. Simply select "
+"images from your WordPress Media Library, Flickr, Instagram or Facebook, set "
+"slide captions, links and SEO fields all from one page."
+msgstr ""
+"Créer des diaporamas avec le plugin Slider est rapide et facile. Il suffit "
+"de sélectionner des images de votre bibliothèque WordPress, Flickr, "
+"Instagram ou Facebook, définissez des légendes de diapositives, des liens et "
+"des champs SEO à partir d'une seule page."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:136
+msgid "Photo Gallery Plugin"
+msgstr "Photo Gallery Plugin"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:136
+msgid ""
+"Photo Gallery Plugin with a great number of layouts will help you to create "
+"quality respectable portfolios and image galleries."
+msgstr ""
+"Plugin de galerie de photos avec un grand nombre de mises en page pour vous "
+"aider à créer des portfolio de bonne qualité et des galeries d'images."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:137
+msgid "Data Tables Generator"
+msgstr "Data Tables Generator"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:137
+msgid ""
+"Create and manage beautiful data tables with custom design. No HTML "
+"knowledge is required."
+msgstr ""
+"Créez et gérez de beaux tableaux de données avec un design personnalisé. "
+"Aucune connaissance HTML n'est requise."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:138
+msgid "Social Share Buttons"
+msgstr "Social Share Buttons"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:138
+msgid ""
+"Social share buttons to increase social traffic and popularity. Social "
+"sharing to Facebook, Twitter and other social networks."
+msgstr ""
+"Boutons de partage des réseaux sociaux pour augmenter le trafic social et la "
+"popularité. Partage social sur Facebook, Twitter et autres réseaux sociaux."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:139
+msgid "Live Chat Plugin"
+msgstr "Live Chat Plugin"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:139
+msgid ""
+"Be closer to your visitors and customers with Live Chat Support by "
+"Supsystic. Help you visitors, support them in real-time with exceptional "
+"Live Chat WordPress plugin by Supsystic."
+msgstr ""
+"Soyez plus proche de vos visiteurs et clients avec Live Chat Support par "
+"Supsystic. Aidez vos visiteurs, soutenez-les en temps réel avec le plugin "
+"WordPress exceptionnel Live Chat de Supsystic."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:140
+msgid "Pricing Table"
+msgstr "Pricing Table"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:140
+msgid ""
+"It’s never been so easy to create and manage pricing and comparison tables "
+"with table builder. Any element of the table can be customise with mouse "
+"click."
+msgstr ""
+"Il n'a jamais été aussi facile de créer et de gérer des tableaux de prix et "
+"de comparaison avec un constructeur de table. Tout élément de la table peut "
+"être personnalisé en un clic de souris."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:141
+msgid "Coming Soon Plugin"
+msgstr "Coming Soon Plugin"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:141
+msgid ""
+"Coming soon page with drag-and-drop builder or under construction | "
+"maintenance mode to notify visitors and collects emails."
+msgstr ""
+"Page \"Bientôt Disponible\" ou \"en Construction\" / Mode maintenance pour "
+"informer les visiteurs et récupérer les adresses mail. Fourni avec un "
+"éditeur Glisser / déposer facile !"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:142
+msgid "Backup Plugin"
+msgstr "Backup Plugin"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:142
+msgid ""
+"Backup and Restore WordPress Plugin by Supsystic provides quick and "
+"unhitched DropBox, FTP, Amazon S3, Google Drive backup for your WordPress "
+"website."
+msgstr ""
+"Plugin de Sauvegarde et restauration WordPress par Supsystic fournissant une "
+"sauvegarde rapide et détachable sur DropBox, FTP, Amazon S3, Google Drive "
+"pour votre site Wordpress"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:143
+msgid "Google Maps Easy"
+msgstr "Google Maps Easy"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:143
+msgid ""
+"Display custom Google Maps. Set markers and locations with text, images, "
+"categories and links. Customize google map in a simple and intuitive way."
+msgstr ""
+"Afficher des cartes Google personnalisées. Définissez des marqueurs et des "
+"emplacements avec du texte, des images, des catégories et des liens. "
+"Personnalisez Google map de manière simple et intuitive."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:144
+msgid "Digital Publication Plugin"
+msgstr "Digital Publication Plugin"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:144
+msgid ""
+"Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, "
+"Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr ""
+"Plugin de Publication numérique par Supsystic pour les magazines, "
+"catalogues, portfolios. Convertir des images, des messages, PDF vers une "
+"page flip book."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:145
+msgid "Contact Form Plugin"
+msgstr "Contact Form Plugin"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:145
+msgid ""
+"One of the best plugin for creating Contact Forms on your WordPress site. "
+"Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr ""
+"L'un des meilleurs plugins pour créer des formulaires de contact sur votre "
+"site WordPress. Polices modifiables, arrière-plans, option pour ajouter des "
+"champs, etc."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:146
+msgid "Newsletter Plugin"
+msgstr "Newsletter Plugin"
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:146
+msgid ""
+"Supsystic Newsletter plugin for automatic mailing of your letters. You will "
+"have no need to control it or send them manually. No coding, hard skills or "
+"long hours of customizing are required."
+msgstr ""
+"Plugin de Newsletter par Supsystic pour l'envoi automatique de vos lettres. "
+"Aucun codage, compétences techniques ou de longues heures de "
+"personnalisation ne sont nécessaires."
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:147
+msgid "Membership by Supsystic"
+msgstr ""
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:147
+msgid ""
+"Create online membership community with custom user profiles, roles, "
+"FrontEnd registration and login. Members Directory, activity, groups, "
+"messages."
+msgstr ""
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:148
+msgid "Kinsta Hosting"
+msgstr ""
+
+#: ../modules/supsystic_promo/views/supsystic_promo.php:148
+msgid ""
+"If you want to host a business site or a blog, Kinsta managed WordPress "
+"hosting is the best place to stop on. Without any hesitation, we can say "
+"Kinsta is incredible when it comes to uptime and speed."
+msgstr ""
+
+#: ../modules/supsystic_promo/views/tpl/additionalmainAdminShowOnOptions.php:1
+#, php-format
+msgid ""
+"Show when user tries to exit from your site. <a target=\"_blank\" href=\"%s"
+"\">Check example.</a>"
+msgstr ""
+"Afficher lorsque l'utilisateur tente de quitter votre site <a target=\"_blank"
+"\" href=\"%s\">Voir l'exemple.</a>"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:4
+#, php-format
+msgid "Welcome to %s plugin!"
+msgstr "Bienvenue sur le plugin %s !"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:5
+#, php-format
+msgid ""
+"Thank you for choosing our %s plugin. Just click here to start using it - "
+"and we will show you it's possibilities and powerfull features."
+msgstr ""
+"Merci d'avoir choisi notre plugin de %s. Cliquez ici pour commencer à "
+"l'utiliser et nous allons vous montrer ses possibilités et fonctionnalités."
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:14
+msgid "Create your firs Form"
+msgstr "Créer votre premier formulaire"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:15
+msgid ""
+"Click on \"Add New Form\" button to create your firs Form. Just try - this "
+"is really simple!"
+msgstr ""
+"Cliquez sur le bouton \"Ajouter un nouveau formulaire\" pour créer votre "
+"premier formulaire. Essayez - c'est vraiment simple!"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:24
+msgid "Enter name for your Form"
+msgstr "﻿Entrez un nom pour votre formulaire"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:25
+msgid "This will be name of your Form. You can change it latter."
+msgstr "Ce sera le nom de votre formulaire. Vous pouvez le modifier plus tard."
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:34
+msgid "Selecte template for your Form"
+msgstr "Sélectionner le modèle de votre formulairet"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:35
+msgid ""
+"Choose any templates from this list. You will be able to customize it after "
+"creation, and also - you will be able to change it latter if you will need "
+"this."
+msgstr ""
+"Choisissez un modèle dans cette liste. Vous pourrez le personnaliser après "
+"la création, ou d'en changer si vous le désirez."
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:44
+msgid "Save first Form"
+msgstr "Sauvegarder votre premier formulaire"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:45
+msgid ""
+"After you entered name of your Form and selected it's template - just save "
+"it, and you will be redirected to Form edit screen - where you will be able "
+"to customize your Form."
+msgstr ""
+"Après avoir entré le nom de votre formulaire et sélectionné le modèle - il "
+"faut simplement l'enregistrer, et vous serez redirigé vers son écran "
+"d'édition - où vous pourrez le personnaliser.."
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:54
+msgid "Main Settings"
+msgstr "Paramètres principaux"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:55
+msgid ""
+"Here you can setup main display settings for your Form - when it should be "
+"visible for your user, when it need to be closed, if required - select "
+"specific pages/posts where you need to show your Form."
+msgstr ""
+"Ici vous pouvez configurer les paramètres d'affichage principaux de votre "
+"formulaire - quand il doit être visible pour l'utilisateur, quand il a "
+"besoin d'être fermé, si nécessaire - sélectionner les pages/articles "
+"spécifiques que vous avez besoin de montrer dans votre formulaire."
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:64
+msgid "Design Settings"
+msgstr "Paramètres de conception"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:65
+msgid ""
+"One of our most powerfull features - possibility to <strong>customize</"
+"strong> design for each Form window for your needs. In this section you can "
+"select your Form colors and images, enter required texts that will describe "
+"your neds for your visitors, setup social settings (if required), select "
+"Form location, and in the end - select Animation style for your Form from "
+"list of more then 20 different animation styles!"
+msgstr ""
+"L'une des fonctionnalités les plus puissantes - possibilité de "
+"<strong>personnaliser</strong> la conception pour chaque fenêtre de "
+"formulaire selon vos besoins. Dans cette section, vous pouvez sélectionner "
+"les couleurs de votre formulaire et des images, entrez les textes "
+"nécessaires suivant vos besoins pour vos visiteurs, configure les paramètres "
+"des réseaux sociaux (si nécessaire), sélectionnez l'emplacement de "
+"formulaire, et enfin - sélectionnez le style d'animation pour votre "
+"formulaire dans la liste de plus de 20 styles d'animation  disponibles !"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:74
+msgid "Subscribe Settings"
+msgstr "Paramètres d’abonnement"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:75
+msgid ""
+"Setup your Subscription settings here - select Subscribers destination in "
+"\"Subscribe to\" option - it allow to flow your subscribers not only to "
+"WordPress Users, but to other popular subscribe services. With other "
+"subscription options you will be able to easily customize your subscribe "
+"form in Form window."
+msgstr ""
+"Configurez vos paramètres d'abonnement ici - sélectionnez l'option de "
+"destination des Abonnés de l'option \"Abonnez-vous à\" - Cela permet de "
+"diriger vos abonnés non seulement vers les utilisateurs de WordPress, mais "
+"aussi à d'autres services . Avec d'autres options d'abonnement, vous serez "
+"en mesure de personnaliser facilement votre formulaire d'abonnement dans la "
+"fenêtre du formulaire."
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:84
+msgid "Form Statistics"
+msgstr "Statistiques du formulaire"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:85
+msgid ""
+"After you will setup your Form - it will start displaying to your site "
+"visitors. And now - you need to check it's displaying statistics. Here, in "
+"Statistics tab, you will be able to see how many times Form was shown to "
+"your visitors, how many times visitors subscribed to it (if subscription is "
+"enabled), how many times visitors shared your site using Social Share Form "
+"functionality and what social networks for share is most popular (if it was "
+"enabled). If you will use AB Testing feature to increase your site "
+"popularity - you will see here all your main and tested Forms statistics - "
+"in one graph or diagramm, - and this will provide you with all required "
+"information about your POpUp popularity!"
+msgstr ""
+"Après la configuration de votre  formulaire, l'écran des visiteurs de votre "
+"site s'affichera _ vous aurez besoin d'afficher les statistiques "
+"d'affichage. Ici, dans l'onglet des statistiques, vous pourrez voir combien "
+"de fois votre formulaire a été montré à vos visiteur, combien de fois les "
+"visiteurs s'y sont abonnés (si activé), combien de fois les visiteurs ont "
+"partagé votre site par l'intermédiaire des réseaux sociaux ainsi que le plus "
+"populaire ( si activé). Si vous souhaiter utiliser les tests AB pour "
+"augmenter la popularité de votre site, vous pourrez voir toutes les "
+"statiques de vos formulaires principaux et de leur variante, dans un "
+"graphique ou un diagramme, ce qui vous fournira toutes les informations "
+"requises sur la popularité de vos PopUp !"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:94
+msgid "Form CSS / HTML Code"
+msgstr "Code CSS / HTML du formulaire"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:95
+#, php-format
+msgid ""
+"In case you will need modify source CSS / HTML code of your Form - you can "
+"easily do this here. Just make sure that you know what you are doing - don't "
+"break Form. You can also find additional information about editing source "
+"code <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+"Dans le cas où vous auriez besoin de modifier le code source CSS / HTML de "
+"votre formulaire - vous pouvez facilement le faire ici. Assurez-vous que "
+"vous savez ce que vous faites - pour ne pas bloquer le formulaire. Vous "
+"pouvez également trouver des informations supplémentaires sur la "
+"modification du code source <a href=\"%s\" target=\"_blank\">ici</a> ."
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:104
+msgid "Well Done!"
+msgstr "Terminé !"
+
+#: ../modules/supsystic_promo/views/tpl/adminTour.php:105
+#, php-format
+msgid ""
+"That's it! Now you know how to use our %s. Just save your Form after you "
+"will setup it - and you will see results. You can also check our site - <a "
+"href=\"%s\" target=\"_blank\">supsystic.com</a> to find out more about our "
+"%s plugin. If you will have any questions - you can always contact us on <a "
+"href=\"%s\" target=\"_blank\">WordPress plugin forum</a> or in <a href=\"%s"
+"\" target=\"_blank\">our support system</a>. We really hope that our "
+"solution will be helpful for you. Good luck!"
+msgstr ""
+"C'est tout! Vous savez maintenant comment utiliser notre %s. Il suffit "
+"d'enregistrer votre formulaire après l'avoir configuré - et vous verrez les "
+"résultats. Vous pouvez également consulter notre site - <a href=\"%s\" "
+"target=\"_blank\">supsystic.com</a> pour en savoir plus sur le notre plugin "
+"%s. Si vous avez des questions - vous pouvez toujours nous contacter sur <a "
+"href=\"%s\" target=\"_blank\">forum sur les plugins WordPress</a> ou dans <a "
+"href=\"%s\" target=\"_blank\">notre centre de support</a> . Nous espérons "
+"vraiment que notre solution sera utile pour vous. Bonne chance!"
+
+#: ../modules/supsystic_promo/views/tpl/discountMsg.php:37
+#, php-format
+msgid ""
+"Upgrade to bundle and get an access to <a href=\"%s\" target=\"_blank\">all "
+"14 plugins</a> more than 80%% off!"
+msgstr ""
+
+#: ../modules/supsystic_promo/views/tpl/layeredStylePromo.php:77
+#, php-format
+msgid ""
+"This functionality and more - is available in PRO version. <a class=\"button "
+"button-primary\" target=\"_blank\" href=\"%s\">Get it</a> today for 29$"
+msgstr ""
+"Ces fonctionnalités - et bien plus encore - sont disponible en version PRO. "
+"<a class=\"button button-primary\" target=\"_blank\" href=\"%s\">Obtenez-la</"
+"a> aujourd'hui pour 29$"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:7
+#, php-format
+msgid "Welcome to the %s v %s"
+msgstr "Bienvenue sur le %s v %s"
+
+#: ../modules/supsystic_promo/views/tpl/welcomePage.php:30
+#, php-format
+msgid ""
+"We love our plugin and do the best to improve all features for You. But "
+"sometimes issues happened, or you can't find required feature that you need. "
+"Don't worry, just <a href='%s' target='_blank'>contact us</a> and we will "
+"help you!"
+msgstr ""
+"Nous aimons notre plugin et faisons de notre mieux pour améliorer toutes ses "
+"caractéristiques. Mais parfois, des problèmes apparaissent, ou vous ne "
+"pouvez pas trouver la fonctionnalité dont vous auriez besoin. Ne vous "
+"inquiétez pas, il suffit de <a href='%s' target='_blank'>nous contacter</a> "
+"et nous vous aiderons !"
+
+#~ msgid "align"
+#~ msgstr "alignement"
+
+#~ msgid "blockquote"
+#~ msgstr "citation"
+
+#~ msgid "p"
+#~ msgstr "p"
+
+#~ msgid "All Blocks"
+#~ msgstr "Tous les blocs"
+
+#~ msgid "Empty Label"
+#~ msgstr "Libellé vide"
+
+#~ msgid "Editor Block %s"
+#~ msgstr "Éditeur de bloc %s"
+
+#~ msgid "Param Key"
+#~ msgstr "Clé de paramètre"
+
+#~ msgid "Param Value"
+#~ msgstr "Valeur de Paramètre"
+
+#~ msgid ""
+#~ "Your license is expired. Once you extend your license - you will be able "
+#~ "to Update PRO version. To extend PRO version license - follow <a href=\"%s"
+#~ "\" target=\"_blank\">this link</a>, then - go to <a href=\"%s\">License</"
+#~ "a> tab anc click on \"Re-activate\" button to re-activate your PRO "
+#~ "version."
+#~ msgstr ""
+#~ "Votre licence est expirée. Une fois que vous aurez réactivé votre licence "
+#~ "- vous pourrez mettre à jour la version PRO. Pour passer à la version PRO "
+#~ "- suivez <a href=\"%s\" target=\"_blank\">ce lien</a>, puis - allez sur "
+#~ "l'onglet <a href=\"%s\">Licence</a> et cliquez sur le bouton \"Re-activate"
+#~ "\" pour réactiver votre version PRO."
+
+#~ msgid ""
+#~ "Your license for PRO version of %s plugin - expired. You can <a href=\"%s"
+#~ "\" target=\"_blank\">click here</a> to extend your license, then - go to "
+#~ "<a href=\"%s\">License</a> tab anc click on \"Re-activate\" button to re-"
+#~ "activate your PRO version."
+#~ msgstr ""
+#~ "Votre licence pour la version PRO du plugin %s - est expirée. Vous pouvez "
+#~ "<a href=\"%s\" target=\"_blank\">cliquer ici</a> pour réactiver votre "
+#~ "licence, puis - allez sur l'onglet <a href=\"%s\">Licence</a> et cliquez "
+#~ "sur le bouton \"Re-activate\" pour réactiver votre version PRO."
+
+#~ msgid "License"
+#~ msgstr "Licence"
+
+#~ msgid "Please enter your License Key"
+#~ msgstr "Veuillez entrer votre clé de licence"
+
+#~ msgid "Please enter your Email address"
+#~ msgstr "Veuillez entrer votre adresse email"
+
+#~ msgid ""
+#~ "There was a problem with sending request to our autentification server. "
+#~ "Please try latter."
+#~ msgstr ""
+#~ "Il y a eu un problème lors de l'envoi de la requête d'authentification à "
+#~ "notre serveur. Merci d'essayer plus tard."
+
+#~ msgid "License for plugin %s will expire today."
+#~ msgstr "La licence pour le plugin %s arrive à expiration aujourd'hui."
+
+#~ msgid "License for plugin %s will expire tomorrow."
+#~ msgstr "La licence pour le plugin %s arrivera à expiration demain."
+
+#~ msgid "License for plugin %s will expire in %d days."
+#~ msgstr "La licence pour le plugin %s expirera dans %d jours."
+
+#~ msgid ""
+#~ "Congradulations! PRO version of %s plugin is activated and working fine!"
+#~ msgstr ""
+#~ "Toutes nos félicitations ! La version PRO du plugin %s est installée et "
+#~ "activée avec succès."
+
+#~ msgid ""
+#~ "Your license for PRO version of %s plugin - expired. You can <a href=\"%s"
+#~ "\" target=\"_blank\">click here</a> to extend your license, then - click "
+#~ "on \"Re-activate\" button to re-activate your PRO version."
+#~ msgstr ""
+#~ "Votre licence pour la version PRO du plugin %s a expiré. Vous pouvez  <a "
+#~ "href=\"%s\" target=\"_blank\">cliquer ici</a> pour renouveler votre "
+#~ "licence, puis cliquer sur le bouton \"Re-activate\" pour réactiver votre "
+#~ "version PRO."
+
+#~ msgid ""
+#~ "Congradulations! You have successfully installed PRO version of %s "
+#~ "plugin. Final step to finish Your PRO version setup - is to enter your "
+#~ "Email and License Key on this page. This will activate Your copy of "
+#~ "software on this site."
+#~ msgstr ""
+#~ "Félicitations ! Vous avez correctement installé la version PRO du plugin "
+#~ "%s. La Dernière étape pour terminer l’installation de votre version PRO "
+#~ "est d’entrer votre Email et la clé de licence sur cette page. Cela "
+#~ "activera votre copie du logiciel sur ce site."
+
+#~ msgid ""
+#~ "Your email address, used on checkout procedure on <a href=\"%\" target="
+#~ "\"_blank\">%s</a>"
+#~ msgstr ""
+#~ "Votre adresse email, utilisée dans la procédure de vérification <a href="
+#~ "\"%s\" target=\"_blank\">%s</a>"
+
+#~ msgid ""
+#~ "Your License Key from your account on <a href=\"%\" target=\"_blank\">%s</"
+#~ "a>"
+#~ msgstr ""
+#~ "Votre clé de licence pour votre compte sur <a href=\"%s\" target=\"_blank"
+#~ "\">%s</a>"
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Une erreur HTTP inattendue s'est produite pendant la requête de l'API.</"
+#~ "p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;"
+#~ "\">Essayer à nouveau</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Une erreur inconnue s'est produite"
+
+#~ msgid "No data found"
+#~ msgstr "Aucune donnée n'a été trouvée."
+
+#~ msgid "From"
+#~ msgstr "De"
+
+#~ msgid "To"
+#~ msgstr "A"
+
+#~ msgid ""
+#~ "Your license has expired. Once you extend your license - you will be able "
+#~ "to Update PRO version. To extend PRO version license - follow <a href=\"%s"
+#~ "\" target=\"_blank\">this link</a>, then - go to <a href=\"%s\">License</"
+#~ "a> tab anc click on \"Re-activate\" button to re-activate your PRO "
+#~ "version."
+#~ msgstr ""
+#~ "Votre licence a expiré. Une fois que vous aurez prolongé votre licence - "
+#~ "vous serez en mesure de mettre à jour la version PRO. Pour prolonger la "
+#~ "version PRO - suivez <a href=\"%s\" target=\"_blank\">ce lien</a> , puis "
+#~ "- aller à l'onglet : <a href=\"%s\">licence</a> et cliquez sur le bouton "
+#~ "\"Réactiver\" pour réactiver votre version PRO."
+
+#~ msgid ""
+#~ "Your license for PRO version of %s plugin has expired. You can <a href="
+#~ "\"%s\" target=\"_blank\">click here</a> to extend your license, then - go "
+#~ "to <a href=\"%s\">License</a> tab and click on \"Re-activate\" button to "
+#~ "re-activate your PRO version."
+#~ msgstr ""
+#~ "Votre licence pour la version PRO du plugin %s a expiré. Vous pouvez <a "
+#~ "href=\"%s\" target=\"_blank\">cliquer ici</a> pour prolonger votre "
+#~ "licence, puis - aller sur l'onglet <a href=\"%s\">licence</a> et cliquez "
+#~ "sur le bouton \"Réactiver\" pour réactiver votre version PRO."
+
+#~ msgid "Activate License"
+#~ msgstr "Activer la licence"
+
+#~ msgid "Renew License"
+#~ msgstr "Renouveler la licence"
+
+#~ msgid ""
+#~ "There was a problem with sending request to our authentication server. "
+#~ "Please try later."
+#~ msgstr ""
+#~ "Il y a un problème avec l'envoi de la demande vers notre serveur "
+#~ "d'authentification. Merci d'essayer ultérieurement."
+
+#~ msgid ""
+#~ "Congratulations! PRO version of %s plugin has been activated and is "
+#~ "working fine!"
+#~ msgstr ""
+#~ "Félicitations ! La version PRO du plugin %s a été activée et fonctionne "
+#~ "très bien !"
+
+#~ msgid ""
+#~ "Your license for PRO version of %s plugin has expired. You can <a href="
+#~ "\"%s\" target=\"_blank\">click here</a> to extend your license, then - "
+#~ "click on \"Re-activate\" button to re-activate your PRO version."
+#~ msgstr ""
+#~ "Votre licence pour la version PRO du plugin %s a expiré. Vous pouvez <a "
+#~ "href=\"%s\" target=\"_blank\">Cliquer ici</a> pour renouveler votre "
+#~ "licence, puis - cliquez sur le bouton « Réactiver » pour réactiver votre "
+#~ "version PRO."
+
+#~ msgid ""
+#~ "Congratulations! You have successfully installed PRO version of %s "
+#~ "plugin. Final step to finish Your PRO version setup - is to enter your "
+#~ "Email and License Key on this page. This will activate Your copy of "
+#~ "software on this site."
+#~ msgstr ""
+#~ "Félicitations ! Vous avez correctement installé la version PRO du plugin "
+#~ "%s. La Dernière étape pour terminer l’installation de votre version PRO "
+#~ "est d’entrer votre Email et la clé de licence sur cette page. Cela "
+#~ "activera votre copie du logiciel sur ce site."
+
+#~ msgid ""
+#~ "Your email address, used on checkout procedure on <a href=\"%s\" target="
+#~ "\"_blank\">%s</a>"
+#~ msgstr ""
+#~ "Votre adresse email, utilisée dans la procédure de vérification <a href="
+#~ "\"%s\" target=\"_blank\">%s</a>"
+
+#~ msgid ""
+#~ "Your License Key from your account on <a href=\"%s\" target=\"_blank\">"
+#~ "%s</a>"
+#~ msgstr ""
+#~ "Votre clé de licence pour votre compte sur <a href=\"%s\" target=\"_blank"
+#~ "\">%s</a>"

@@ -1,0 +1,9 @@
+.nbsErrorMsg {
+    color: #fa4e7f;
+}
+.nbsSuccessMsg {
+    color: #4ae8ea;
+}
+.nbsInputError {
+    border: 1px #fa4e7f solid !important;
+}
